@@ -383,96 +383,97 @@
 
             Ces outils nous ont permis d'appliquer concrètement les connaissances acquises dans le cadre du module de Technologie Web. Nous considérons ces technologies comme les fondements du développement web et, grâce à ce projet, nous avons établi une base solide pour l'exploration de nouvelles technologies à l'avenir.
     
-    \section{Mise en oeuvre}
-        Dans cette section, nous allons détailler la mise en œuvre du projet. Cet espace de collaboration peut être divisé en deux parties : la première, dédiée aux collaborateurs, et la seconde, réservée à l'administration.
-        \subsection{Page d'accueil}
-                Une page partager entre les deux acteurs, vise a rediriger l'utilisateur vers la page de connexion, quoi qu'il soit un admin ou collaborateur.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/homePage.png}
-                    \caption{Page d'accueil}
-                \end{figure}
-                \FloatBarrier
-        \subsection{Espace collaborateur}
-            \subsubsection{Page de Connexion}
-                La connexion est utilisée pour assurer la session, et rediriger l'utilisateur vers la page de profil, En PHP, les sessions sont utilisées pour stocker des informations sur l'utilisateur de manière persistante pendant qu'il navigue sur le site. Cela permet, par exemple, de maintenir un utilisateur connecté entre différentes pages. Chaque session est identifiée de manière unique par un identifiant de session (session ID) qui est généralement stocké dans un cookie côté client.
-                Ainsi, elle assure que l'utilisateur ne se connecte qu'une seule fois sur le site, est que s'il n'a jamais de session, il ne peut pas acceder a la platforme.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.7\textwidth]{assets/webSite/loginCollab.jpeg}
-                    \caption{Page de Connexion}
-                \end{figure}
-                \FloatBarrier
-            \subsubsection{Page d'Inscription}
-                Cas ou le membre souhaite s'inscrire sur le site, on lui redirigera vers la page d'inscription, ou il envoie une demande avec ses informations personnel, et le membre sera inscrit sur le site si l'Admin accepte la demande.
-                Chaque membre accepté recoie un email de confirmation, qui contient les informations de connexion.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.3\textwidth]{assets/webSite/envoieDemande.jpeg}
-                    \caption{Page d'Inscription}
-                \end{figure}
-                \FloatBarrier
-            \subsubsection{Page de profil}
-                Chaque collaborateur a une page de son profile, ou il peux voir les question qu'il a poser,les formations,evenements qu'il interresse, plus une gestion de ses questions.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/profielPage.jpeg}
-                    \caption{Page de profil}
-                \end{figure}
-                \FloatBarrier
-            \subsubsection{Page de modification du profil}
-                Depuis le profile et en cliquant sur un simple bouton, le collaborateur se redirige vers une page ou il peut modifier la tottalite des informations de son profile.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/modifProfile.png}
-                    \caption{Page de modification du profil}
-                \end{figure}
-                \FloatBarrier
-            \subsubsection{Page des questions,formations et evenements}
-                Cette page contient les questions poser par tous les collaborateurs, ainsi que les informations des formations et evenements disponibles, dans cette page le collaborateur peut ajouter et répondre a une question,ajouter ou/et s'interesser à une formation ou un evenement.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/Acceuil.png}
-                    \caption{Page des questions,formations et evenements}
-                \end{figure}
-                \FloatBarrier
-                l'ajout d'une question ou bien un formation,evenement,projet et meme une connaissance se fait de la meme maniere, en cliquant sur le bouton correspondant en remplissant les informations, le formulaire est envoyer au serveur et traiter.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/addQuestion.png}
-                    \caption{Ajouter une question}
-                \end{figure}
-                \FloatBarrier
-                Meme chose pour la recherche, le collaborateur peut effectuer une recherche par titre poue les questions,formations,evenements et connaissances.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/search.png}
-                    \caption{Recherche}
-                \end{figure}
-                \FloatBarrier 
-            \subsubsection{Page des connaissances}
-                Le collaborateur peut acceder aussi a cet espace dedie aux connaissances, qui sont partager soit par lui meme soit par un autre collaborateur, aussi que ajouter des connaissances et les partager avec d'autres collaborateurs, la barre a gauche a pour but de simplifie la navigation.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance.png}
-                    \caption{Page des connaissances}
-                \end{figure}
-                \FloatBarrier
-                Pour ne pas charger la page des connaissances a chaque fois un utilisateur accéde sur la page, aucune connaissances n'est affichée sauf si le collaboteur clique sur  le bouton `voir details`,on affiche seulement les informations qui aide a identifie la connaissance  dans le debut.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance_demo.png}
-                    \caption{des connaissances}
-                \end{figure}
-                \FloatBarrier
-            \subsubsection{Page des projets}
-                Là on a la page des projet, ou le collaborateur peut consulter les projets en cours.
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.8\textwidth]{assets/webSite/projectsPage.png}
-                    \caption{Page des projets}
-                \end{figure}
-                \FloatBarrier
+            \section{Mise en œuvre}
+            Dans cette section, nous allons détailler la mise en œuvre du projet. Cet espace de collaboration peut être divisé en deux parties : la première, dédiée aux collaborateurs, et la seconde, réservée à l'administration.
+            \subsection{Page d'accueil}
+                    Une page partagée entre les deux acteurs, vise à rediriger l'utilisateur vers la page de connexion, qu'il soit un administrateur ou un collaborateur.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/homePage.png}
+                        \caption{Page d'accueil}
+                    \end{figure}
+                    \FloatBarrier
+            \subsection{Espace collaborateur}
+                \subsubsection{Page de Connexion}
+                    La connexion est utilisée pour sécuriser la session et rediriger l'utilisateur vers la page de profil. En PHP, les sessions sont utilisées pour stocker des informations sur l'utilisateur de manière persistante pendant qu'il navigue sur le site. Cela permet, par exemple, de maintenir un utilisateur connecté entre différentes pages. Chaque session est identifiée de manière unique par un identifiant de session (session ID) qui est généralement stocké dans un cookie côté client.
+                    Ainsi, elle assure que l'utilisateur ne se connecte qu'une seule fois sur le site, et que s'il n'a pas de session, il ne peut pas accéder à la plateforme.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.7\textwidth]{assets/webSite/loginCollab.jpeg}
+                        \caption{Page de Connexion}
+                    \end{figure}
+                    \FloatBarrier
+                \subsubsection{Page d'Inscription}
+                    Dans le cas où le membre souhaite s'inscrire sur le site, il sera redirigé vers la page d'inscription où il enverra une demande avec ses informations personnelles, et le membre sera inscrit sur le site si l'administrateur accepte la demande.
+                    Chaque membre accepté reçoit un email de confirmation, qui contient les informations de connexion.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.3\textwidth]{assets/webSite/envoieDemande.jpeg}
+                        \caption{Page d'Inscription}
+                    \end{figure}
+                    \FloatBarrier
+                \subsubsection{Page de profil}
+                    Chaque collaborateur a une page de profil où il peut voir les questions qu'il a posées, les formations et événements qui l'intéressent, ainsi qu'une gestion de ses questions.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/profielPage.jpeg}
+                        \caption{Page de profil}
+                    \end{figure}
+                    \FloatBarrier
+                \subsubsection{Page de modification du profil}
+                    Depuis le profil et en cliquant sur un simple bouton, le collaborateur est redirigé vers une page où il peut modifier la totalité des informations de son profil.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/modifProfile.png}
+                        \caption{Page de modification du profil}
+                    \end{figure}
+                    \FloatBarrier
+                \subsubsection{Page des questions, formations et événements}
+                    Cette page contient les questions posées par tous les collaborateurs, ainsi que les informations sur les formations et événements disponibles. Sur cette page, le collaborateur peut ajouter et répondre à une question, ajouter ou s'intéresser à une formation ou un événement.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/Acceuil.png}
+                        \caption{Page des questions, formations et événements}
+                    \end{figure}
+                    \FloatBarrier
+                    L'ajout d'une question ou d'une formation, d'un événement, d'un projet, ou même d'une connaissance se fait de la même manière, en cliquant sur le bouton correspondant et en remplissant les informations. Le formulaire est envoyé au serveur et traité.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/addQuestion.png}
+                        \caption{Ajouter une question}
+                    \end{figure}
+                    \FloatBarrier
+                    Il en est de même pour la recherche, le collaborateur peut effectuer une recherche par titre pour les questions, formations, événements et connaissances.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/search.png}
+                        \caption{Recherche}
+                    \end{figure}
+                    \FloatBarrier 
+                \subsubsection{Page des connaissances}
+                    Le collaborateur peut accéder aussi à cet espace dédié aux connaissances, qui sont partagées soit par lui-même soit par un autre collaborateur. Il peut également ajouter des connaissances et les partager avec d'autres collaborateurs. La barre à gauche a pour but de simplifier la navigation.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance.png}
+                        \caption{Page des connaissances}
+                    \end{figure}
+                    \FloatBarrier
+                    Pour ne pas charger la page des connaissances à chaque fois qu'un utilisateur y accède, aucune connaissance n'est affichée sauf si le collaborateur clique sur le bouton `voir détails`. On affiche seulement les informations qui aident à identifier la connaissance au début.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance_demo.png}
+                        \caption{Détails des connaissances}
+                    \end{figure}
+                    \FloatBarrier
+                \subsubsection{Page des projets}
+                    Voici la page des projets, où le collaborateur peut consulter les projets en cours.
+                    \begin{figure}[h!]
+                        \centering
+                        \includegraphics[width=0.8\textwidth]{assets/webSite/projectsPage.png}
+                        \caption{Page des projets}
+                    \end{figure}
+                    \FloatBarrier
+    
         \subsection{Espace Admin}
             \subsubsection{Page d'accueil}
             \subsubsection{Espace d'administration}
