@@ -24,6 +24,11 @@
     \tableofcontents
     \newpage
 
+    \listoffigures
+
+    \listoftables
+    \newpage
+
     \section{Remerciements}
         Nous tenons à exprimer notre profonde gratitude à Mme LETRACHE et à M. KISSI pour les connaissances qu'ils nous ont transmises dans les modules de Technologie Web et de Modélisation UML. Nous leur sommes également reconnaissants pour leur soutien précieux, qui nous a permis de mettre en pratique ces acquis et de réussir notre projet. Grâce à leur aide, nous avons pu acquérir une expérience concrète dans la réalisation d'un projet.
     
@@ -57,41 +62,45 @@
             et chaque tâche est vérifiée par tous les membres du groupe.
             Cette distribution concerne la réalisation initiale de la tâche (premier commit), puis on améliore cette dernière si nécessaire.\newline
             si on ne spécifie pas la partie(backend ou frontend), donc le membre du groupe travaille sur les deux parties.\newline
-            \begin{tabular}{|l|l|}
-                \hline
-                Partie &
-                Tâche \\
-                \hline
-                Conception  &
-                Diagramme de classe (CHROQUI) \\
-                            &
-                MCD (CHROQUI) \\
-                            &
-                Diagrammes des cas d'utilisations (AMKASSOU) \\
-                            &
-                Diagrammes d'états transitions (CHROQUI) \\
-                            &
-                Diagramme de Sequence (HERAK) \\
-                            &
-                Diagramme d'activité (HERAK) \\
-                \hline
-                réalisation &
-                BDD, Les profile (frontend), systéme de notification, systéme des états des questions,\\
-                            &
-                Modération des questions (AMKASSOU). \\
-                            &
-                Pages d'accueil, Login et logout et inscription, questions, incription\\
-                            &
-                dans les formations et annonces, like et dislike,\\
-                            &
-                gestion profile Admin(backend),la recherche et systéme des états des formation (CHROQUI). \\
-                            &
-                Pages des projets, evenements, base de connaissances, formations,\\
-                            &
-                dashboard de l'Admin, gestion profile collaborateurs(backend) et la recherche (HERAK). \\
-                \hline
-            \end{tabular}
-
+            \begin{table}[h!]
+                \centering
+                \begin{tabular}{|l|l|}
+                    \hline
+                    Partie &
+                    Tâche \\
+                    \hline
+                    Conception  &
+                    Diagramme de classe (CHROQUI) \\
+                                &
+                    MCD (CHROQUI) \\
+                                &
+                    Diagrammes des cas d'utilisations (AMKASSOU) \\
+                                &
+                    Diagrammes d'états transitions (CHROQUI) \\
+                                &
+                    Diagramme de Sequence (HERAK) \\
+                                &
+                    Diagramme d'activité (HERAK) \\
+                    \hline
+                    réalisation &
+                    BDD, Les profile (frontend), systéme de notification, systéme des états des questions,\\
+                                &
+                    Modération des questions (AMKASSOU). \\
+                                &
+                    Pages d'accueil, Login et logout et inscription, questions, incription\\
+                                &
+                    dans les formations et annonces, like et dislike,\\
+                                &
+                    gestion profile Admin(backend),la recherche et systéme des états des formation (CHROQUI). \\
+                                &
+                    Pages des projets, evenements, base de connaissances, formations,\\
+                                &
+                    dashboard de l'Admin, gestion profile collaborateurs(backend) et la recherche (HERAK). \\
+                    \hline
+                \end{tabular}
+                \caption{Distribution des tâches}
+            \end{table}
+            \FloatBarrier
         \subsection{Conclusion}
             En conclusion, ce projet vise à créer une application web en PHP qui répond aux besoins de communication et de collaboration au sein des entreprises. En facilitant les échanges d'informations, le partage de connaissances et le support technique, cette plateforme contribuera à améliorer la productivité et l'efficacité des équipes. La gestion des formations et des profils des employés permettra également une meilleure organisation et un suivi plus rigoureux des compétences. Grâce à une mise en œuvre soignée et à l'utilisation des technologies appropriées et enrichissement des fonctionnalités, cette application promet de devenir un outil indispensable pour toute entreprise cherchant à optimiser ses processus internes.
     
@@ -166,11 +175,12 @@
             Tous les acteurs et leurs tâches sont présentés dans les diagrammes suivants :
             
             \subsubsection{Diagrammes de Classe}
-                \begin{center}
+                \begin{figure}[h!]
                     \centering
                     \includegraphics[width=1.0\textwidth]{assets/diagrammes/class.jpg}
-                \end{center}
-
+                    \caption{Diagramme de Classe}
+                \end{figure}
+                \FloatBarrier   
             \subsubsection{MCD}
                 % \begin{center}
                 %     \centering
@@ -277,88 +287,97 @@
         \subsection{Outils de développement}
             
             \subsubsection{Equipement logiciel}
-        
-            \begin{tabular}{|m{2cm}|m{12cm}|}
-                \hline
-                \includegraphics[width=2cm]{assets/logos/vscode.png} &
-                \textbf{Visual Studio Code} :
-                
-                Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
-                \textbf{WAMP Server} :
-                
-                Pour que nous puissions fonctionner localement des scripts PHP, WAMP est l'abrégé de Windows, Apache, MySQL et PHP. On a choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que gérer des bases des données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
-                \textbf{PhpMyAdmin} :
-                
-                PHPMyAdmin : interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions et importer ou exporter les données dans divers formats. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
-                \textbf{MySQL} :
-                
-                MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
-                \textbf{StarUML} :
-                
-                StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/github-mark.png} &
-                \textbf{GitHub} :
-                
-                GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
-                \hline
-            \end{tabular}
-            
+            \begin{table}[h!]
+                \centering
+                \begin{tabular}{|m{2cm}|m{12cm}|}
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/vscode.png} &
+                    \textbf{Visual Studio Code} :
+                    
+                    Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
+                    \textbf{WAMP Server} :
+                    
+                    Pour que nous puissions fonctionner localement des scripts PHP, WAMP est l'abrégé de Windows, Apache, MySQL et PHP. On a choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que gérer des bases des données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
+                    \textbf{PhpMyAdmin} :
+                    
+                    PHPMyAdmin : interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions et importer ou exporter les données dans divers formats. \\
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
+                    \textbf{MySQL} :
+                    
+                    MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
+                    \textbf{StarUML} :
+                    
+                    StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
+                    \hline
+                    \includegraphics[width=2cm]{assets/logos/github-mark.png} &
+                    \textbf{GitHub} :
+                    
+                    GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
+                    \hline
+                \end{tabular}
+                \caption{Equipement logicielles}
+            \end{table}
+            \FloatBarrier
             \subsubsection{Langages d'implémentation}
-            
-            \begin{tabular}{|m{2cm}|m{12cm}|}
-                \hline
-                \includegraphics[width=2cm]{assets/logos/PHP_logo.png} &
-                \textbf{PHP} :
-                
-                PHP : (HyperText Preprocessor) langage de programmation libre, principalement utilisé pour produire des pages web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/js.jpg} &
-                \textbf{JavaScript} :
-                
-                JavaScript : un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/html.jpg} &
-                \textbf{HTML} :
-                
-                HTML : (HyperText Markup Language) langage de balisage permettant d'écrire de l'hypertexte. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d'inclure des ressources multimédias dont des images, des formulaires, et des éléments programmables tels que des applets. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l'accessibilité du web. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/css.png} &
-                \textbf{CSS} :
-                
-                CSS est un langage de style dont la syntaxe est simple mais son effet est remarquable, il s'intéresse à la mise en forme du contenu intégré avec du HTML. \\
-                \hline
-            \end{tabular}
-            
+                \begin{table}[h!]
+                    \centering
+                    \begin{tabular}{|m{2cm}|m{12cm}|}
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/PHP_logo.png} &
+                        \textbf{PHP} :
+                        
+                        PHP : (HyperText Preprocessor) langage de programmation libre, principalement utilisé pour produire des pages web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/js.jpg} &
+                        \textbf{JavaScript} :
+                        
+                        JavaScript : un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/html.jpg} &
+                        \textbf{HTML} :
+                        
+                        HTML : (HyperText Markup Language) langage de balisage permettant d'écrire de l'hypertexte. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d'inclure des ressources multimédias dont des images, des formulaires, et des éléments programmables tels que des applets. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l'accessibilité du web. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/css.png} &
+                        \textbf{CSS} :
+                        
+                        CSS est un langage de style dont la syntaxe est simple mais son effet est remarquable, il s'intéresse à la mise en forme du contenu intégré avec du HTML. \\
+                        \hline
+                    \end{tabular}
+                    \caption{Langages d'implémentation}
+                \end{table}
+            \FloatBarrier
             \subsubsection{Frameworks et bibliothèques}
-            
-            \begin{tabular}{|m{2cm}|m{12cm}|}
-                \hline
-                \includegraphics[width=2cm]{assets/logos/OIP (1).jpg} &
-                \textbf{Bootstrap} :
-                
-                Bootstrap : Collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/jq.png} &
-                \textbf{JQuery} :
-                
-                JQuery : Bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web. \\
-                \hline
-                \includegraphics[width=2cm]{assets/logos/ajax.png} &
-                \textbf{AJAX} :
-                
-                AJAX : architecture logicielle permettant de créer des pages et des applications web capables d'interagir avec l'utilisateur et/ou d'autres applications sans qu'il soit nécessaire de recharger cette page dans le navigateur web du poste client. AJAX s'appuie sur des technologies présentes dans les différents navigateurs web, dont JavaScript (JS) et XML. \\
-                \hline
-            \end{tabular}
-        
+                \begin{table}[h!]
+                    \centering
+                    \begin{tabular}{|m{2cm}|m{12cm}|}
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/OIP (1).jpg} &
+                        \textbf{Bootstrap} :
+                        
+                        Bootstrap : Collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/jq.png} &
+                        \textbf{JQuery} :
+                        
+                        JQuery : Bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/ajax.png} &
+                        \textbf{AJAX} :
+                        
+                        AJAX : architecture logicielle permettant de créer des pages et des applications web capables d'interagir avec l'utilisateur et/ou d'autres applications sans qu'il soit nécessaire de recharger cette page dans le navigateur web du poste client. AJAX s'appuie sur des technologies présentes dans les différents navigateurs web, dont JavaScript (JS) et XML. \\
+                        \hline
+                    \end{tabular}
+                    \caption{Frameworks et bibliothèques}
+                \end{table}
+            \FloatBarrier
         \subsection{Conclusion}
             Durant ce projet, nous avons eu l'opportunité de travailler avec une gamme variée de technologies, notamment PHP, JavaScript, HTML, CSS, Bootstrap, JQuery, AJAX, GitHub, Visual Studio Code, PhpMyAdmin et WAMP Server. 
 
