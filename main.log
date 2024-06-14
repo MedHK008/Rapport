@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  14 JUN 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  15 JUN 2024 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,25 +523,118 @@ Package pdftex.def Info: assets/logos/ajax.png  used on input line 372.
 
 
 [15 <./assets/logos/PHP_logo.png> <./assets/logos/js.jpg> <./assets/logos/html.jpg> <./assets/logos/css.png> <./assets/logos/OIP (1).jpg> <./assets/logos/jq.png> <./assets/logos/ajax.png>]
+<assets/webSite/homePage.png, id=83, 1866.975pt x 888.31876pt>
+File: assets/webSite/homePage.png Graphic file (type png)
+<use assets/webSite/homePage.png>
+Package pdftex.def Info: assets/webSite/homePage.png  used on input line 392.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+<assets/webSite/loginCollab.jpeg, id=84, 1706.375pt x 811.03pt>
+File: assets/webSite/loginCollab.jpeg Graphic file (type jpg)
+<use assets/webSite/loginCollab.jpeg>
+Package pdftex.def Info: assets/webSite/loginCollab.jpeg  used on input line 402.
+(pdftex.def)             Requested size: 317.07614pt x 150.70647pt.
+<assets/webSite/envoieDemande.jpeg, id=85, 307.90031pt x 347.04657pt>
+File: assets/webSite/envoieDemande.jpeg Graphic file (type jpg)
+<use assets/webSite/envoieDemande.jpeg>
+Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 411.
+(pdftex.def)             Requested size: 135.89174pt x 153.17226pt.
 
-[16] (main.aux)
+
+[16 <./assets/webSite/homePage.png> <./assets/webSite/loginCollab.jpeg>]
+<assets/webSite/profielPage.jpeg, id=90, 1865.97125pt x 910.40125pt>
+File: assets/webSite/profielPage.jpeg Graphic file (type jpg)
+<use assets/webSite/profielPage.jpeg>
+Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 419.
+(pdftex.def)             Requested size: 362.37569pt x 176.79822pt.
+<assets/webSite/modifProfile.png, id=91, 1856.9375pt x 948.54375pt>
+File: assets/webSite/modifProfile.png Graphic file (type png)
+<use assets/webSite/modifProfile.png>
+Package pdftex.def Info: assets/webSite/modifProfile.png  used on input line 427.
+(pdftex.def)             Requested size: 362.37569pt x 185.10278pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[17 <./assets/webSite/envoieDemande.jpeg> <./assets/webSite/profielPage.jpeg>]
+<assets/webSite/Acceuil.png, id=95, 1400.23125pt x 666.23906pt>
+File: assets/webSite/Acceuil.png Graphic file (type png)
+<use assets/webSite/Acceuil.png>
+Package pdftex.def Info: assets/webSite/Acceuil.png  used on input line 435.
+(pdftex.def)             Requested size: 362.37569pt x 172.41495pt.
+<assets/webSite/addQuestion.png, id=96, 1866.975pt x 888.31876pt>
+File: assets/webSite/addQuestion.png Graphic file (type png)
+<use assets/webSite/addQuestion.png>
+Package pdftex.def Info: assets/webSite/addQuestion.png  used on input line 442.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[18 <./assets/webSite/modifProfile.png> <./assets/webSite/Acceuil.png>]
+<assets/webSite/search.png, id=102, 1866.975pt x 888.31876pt>
+File: assets/webSite/search.png Graphic file (type png)
+<use assets/webSite/search.png>
+Package pdftex.def Info: assets/webSite/search.png  used on input line 449.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+<assets/webSite/base-de-connaissance.png, id=103, 1866.975pt x 888.31876pt>
+File: assets/webSite/base-de-connaissance.png Graphic file (type png)
+<use assets/webSite/base-de-connaissance.png>
+Package pdftex.def Info: assets/webSite/base-de-connaissance.png  used on input line 457.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[19 <./assets/webSite/addQuestion.png> <./assets/webSite/search.png>]
+<assets/webSite/base-de-connaissance_demo.png, id=109, 1119.18124pt x 1507.6325pt>
+File: assets/webSite/base-de-connaissance_demo.png Graphic file (type png)
+<use assets/webSite/base-de-connaissance_demo.png>
+Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on input line 464.
+(pdftex.def)             Requested size: 362.37569pt x 488.15741pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[20 <./assets/webSite/base-de-connaissance.png>]
+<assets/webSite/projectsPage.png, id=115, 1866.975pt x 888.31876pt>
+File: assets/webSite/projectsPage.png Graphic file (type png)
+<use assets/webSite/projectsPage.png>
+Package pdftex.def Info: assets/webSite/projectsPage.png  used on input line 472.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[21 <./assets/webSite/base-de-connaissance_demo.png>]
+
+[22 <./assets/webSite/projectsPage.png>] (main.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6784 strings out of 473938
- 107987 string characters out of 5727391
+ 6861 strings out of 473938
+ 110951 string characters out of 5727391
  1941893 words of memory out of 5000000
- 29532 multiletter control sequences out of 15000+600000
+ 29609 multiletter control sequences out of 15000+600000
  564725 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,14n,93p,963b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (15 pages, 3555578 bytes).
+Output written on main.pdf (21 pages, 5141747 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
+ 370 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

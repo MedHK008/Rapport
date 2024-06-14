@@ -287,43 +287,43 @@
         \subsection{Outils de développement}
             
             \subsubsection{Equipement logiciel}
-            \begin{table}[h!]
-                \centering
-                \begin{tabular}{|m{2cm}|m{12cm}|}
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/vscode.png} &
-                    \textbf{Visual Studio Code} :
-                    
-                    Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
-                    \textbf{WAMP Server} :
-                    
-                    Pour que nous puissions fonctionner localement des scripts PHP, WAMP est l'abrégé de Windows, Apache, MySQL et PHP. On a choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que gérer des bases des données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
-                    \textbf{PhpMyAdmin} :
-                    
-                    PHPMyAdmin : interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions et importer ou exporter les données dans divers formats. \\
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
-                    \textbf{MySQL} :
-                    
-                    MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
-                    \textbf{StarUML} :
-                    
-                    StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
-                    \hline
-                    \includegraphics[width=2cm]{assets/logos/github-mark.png} &
-                    \textbf{GitHub} :
-                    
-                    GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
-                    \hline
-                \end{tabular}
-                \caption{Equipement logicielles}
-            \end{table}
+                \begin{table}[h!]
+                    \centering
+                    \begin{tabular}{|m{2cm}|m{12cm}|}
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/vscode.png} &
+                        \textbf{Visual Studio Code} :
+                        
+                        Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
+                        \textbf{WAMP Server} :
+                        
+                        Pour que nous puissions fonctionner localement des scripts PHP, WAMP est l'abrégé de Windows, Apache, MySQL et PHP. On a choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que gérer des bases des données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
+                        \textbf{PhpMyAdmin} :
+                        
+                        PHPMyAdmin : interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions et importer ou exporter les données dans divers formats. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
+                        \textbf{MySQL} :
+                        
+                        MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
+                        \textbf{StarUML} :
+                        
+                        StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
+                        \hline
+                        \includegraphics[width=2cm]{assets/logos/github-mark.png} &
+                        \textbf{GitHub} :
+                        
+                        GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
+                        \hline
+                    \end{tabular}
+                    \caption{Equipement logicielles}
+                \end{table}
             \FloatBarrier
             \subsubsection{Langages d'implémentation}
                 \begin{table}[h!]
@@ -384,17 +384,95 @@
             Ces outils nous ont permis d'appliquer concrètement les connaissances acquises dans le cadre du module de Technologie Web. Nous considérons ces technologies comme les fondements du développement web et, grâce à ce projet, nous avons établi une base solide pour l'exploration de nouvelles technologies à l'avenir.
     
     \section{Mise en oeuvre}
-        Dans cette partie on va spécifier la mise en oeuvre du projet, avec la conception de l'application et les technologies,logiciel et bibliotheques utilisées. 
-
+        Dans cette section, nous allons détailler la mise en œuvre du projet. Cet espace de collaboration peut être divisé en deux parties : la première, dédiée aux collaborateurs, et la seconde, réservée à l'administration.
+        \subsection{Page d'accueil}
+                Une page partager entre les deux acteurs, vise a rediriger l'utilisateur vers la page de connexion, quoi qu'il soit un admin ou collaborateur.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/homePage.png}
+                    \caption{Page d'accueil}
+                \end{figure}
+                \FloatBarrier
         \subsection{Espace collaborateur}
-            \subsubsection{Page d'accueil}
             \subsubsection{Page de Connexion}
+                La connexion est utilisée pour assurer la session, et rediriger l'utilisateur vers la page de profil, En PHP, les sessions sont utilisées pour stocker des informations sur l'utilisateur de manière persistante pendant qu'il navigue sur le site. Cela permet, par exemple, de maintenir un utilisateur connecté entre différentes pages. Chaque session est identifiée de manière unique par un identifiant de session (session ID) qui est généralement stocké dans un cookie côté client.
+                Ainsi, elle assure que l'utilisateur ne se connecte qu'une seule fois sur le site, est que s'il n'a jamais de session, il ne peut pas acceder a la platforme.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.7\textwidth]{assets/webSite/loginCollab.jpeg}
+                    \caption{Page de Connexion}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page d'Inscription}
+                Cas ou le membre souhaite s'inscrire sur le site, on lui redirigera vers la page d'inscription, ou il envoie une demande avec ses informations personnel, et le membre sera inscrit sur le site si l'Admin accepte la demande.
+                Chaque membre accepté recoie un email de confirmation, qui contient les informations de connexion.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.3\textwidth]{assets/webSite/envoieDemande.jpeg}
+                    \caption{Page d'Inscription}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page de profil}
+                Chaque collaborateur a une page de son profile, ou il peux voir les question qu'il a poser,les formations,evenements qu'il interresse, plus une gestion de ses questions.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/profielPage.jpeg}
+                    \caption{Page de profil}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page de modification du profil}
+                Depuis le profile et en cliquant sur un simple bouton, le collaborateur se redirige vers une page ou il peut modifier la tottalite des informations de son profile.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/modifProfile.png}
+                    \caption{Page de modification du profil}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page des questions,formations et evenements}
+                Cette page contient les questions poser par tous les collaborateurs, ainsi que les informations des formations et evenements disponibles, dans cette page le collaborateur peut ajouter et répondre a une question,ajouter ou/et s'interesser à une formation ou un evenement.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/Acceuil.png}
+                    \caption{Page des questions,formations et evenements}
+                \end{figure}
+                \FloatBarrier
+                l'ajout d'une question ou bien un formation,evenement,projet et meme une connaissance se fait de la meme maniere, en cliquant sur le bouton correspondant en remplissant les informations, le formulaire est envoyer au serveur et traiter.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/addQuestion.png}
+                    \caption{Ajouter une question}
+                \end{figure}
+                \FloatBarrier
+                Meme chose pour la recherche, le collaborateur peut effectuer une recherche par titre poue les questions,formations,evenements et connaissances.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/search.png}
+                    \caption{Recherche}
+                \end{figure}
+                \FloatBarrier 
             \subsubsection{Page des connaissances}
+                Le collaborateur peut acceder aussi a cet espace dedie aux connaissances, qui sont partager soit par lui meme soit par un autre collaborateur, aussi que ajouter des connaissances et les partager avec d'autres collaborateurs, la barre a gauche a pour but de simplifie la navigation.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance.png}
+                    \caption{Page des connaissances}
+                \end{figure}
+                \FloatBarrier
+                Pour ne pas charger la page des connaissances a chaque fois un utilisateur accéde sur la page, aucune connaissances n'est affichée sauf si le collaboteur clique sur  le bouton `voir details`,on affiche seulement les informations qui aide a identifie la connaissance  dans le debut.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance_demo.png}
+                    \caption{des connaissances}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page des projets}
+                Là on a la page des projet, ou le collaborateur peut consulter les projets en cours.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/projectsPage.png}
+                    \caption{Page des projets}
+                \end{figure}
+                \FloatBarrier
         \subsection{Espace Admin}
             \subsubsection{Page d'accueil}
             \subsubsection{Espace d'administration}
