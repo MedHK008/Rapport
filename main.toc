@@ -1,43 +1,44 @@
-\contentsline {section}{\numberline {1}Remerciements}{4}{}%
-\contentsline {section}{\numberline {2}Résumé}{5}{}%
-\contentsline {section}{\numberline {3}Contexte du Projet}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Introduction}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Objectifs du Projet}{6}{}%
-\contentsline {subsection}{\numberline {3.3}Distribution des Tâches}{6}{}%
-\contentsline {subsection}{\numberline {3.4}Conclusion}{7}{}%
-\contentsline {section}{\numberline {4}Conception}{7}{}%
-\contentsline {subsection}{\numberline {4.1}Introduction}{7}{}%
-\contentsline {subsection}{\numberline {4.2}Spécifications Fonctionnelles du Projet}{7}{}%
-\contentsline {subsection}{\numberline {4.3}Spécifications Non-Fonctionnelles du Projet}{8}{}%
-\contentsline {subsection}{\numberline {4.4}Les Acteurs du Système}{8}{}%
-\contentsline {subsection}{\numberline {4.5}Les Diagrammes UML}{8}{}%
-\contentsline {subsubsection}{\numberline {4.5.1}Diagramme de Classe}{8}{}%
-\contentsline {subsubsection}{\numberline {4.5.2}Diagramme des Cas d'Utilisation}{9}{}%
-\contentsline {subsubsection}{\numberline {4.5.3}Diagramme d'États-Transitions}{13}{}%
-\contentsline {subsubsection}{\numberline {4.5.4}Diagramme de Séquence}{14}{}%
-\contentsline {subsubsection}{\numberline {4.5.5}Diagramme d'Activité}{15}{}%
-\contentsline {subsection}{\numberline {4.6}Conclusion}{15}{}%
-\contentsline {section}{\numberline {5}Réalisation}{16}{}%
-\contentsline {subsection}{\numberline {5.1}Introduction}{16}{}%
-\contentsline {subsection}{\numberline {5.2}Outils de développement}{16}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}Équipement logiciel}{16}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}Langages d'implémentation}{17}{}%
-\contentsline {subsubsection}{\numberline {5.2.3}Frameworks et bibliothèques}{17}{}%
-\contentsline {subsection}{\numberline {5.3}Conclusion}{17}{}%
-\contentsline {section}{\numberline {6}Mise en œuvre}{18}{}%
-\contentsline {subsection}{\numberline {6.1}Introduction}{18}{}%
-\contentsline {subsection}{\numberline {6.2}Page d'accueil}{18}{}%
-\contentsline {subsection}{\numberline {6.3}Espace collaborateur}{18}{}%
-\contentsline {subsubsection}{\numberline {6.3.1}Page de Connexion}{18}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Page d'Inscription}{19}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}Page de profil}{19}{}%
-\contentsline {subsubsection}{\numberline {6.3.4}Page de modification du profil}{20}{}%
-\contentsline {subsubsection}{\numberline {6.3.5}Page des questions, formations et événements}{20}{}%
-\contentsline {subsubsection}{\numberline {6.3.6}Page des connaissances}{23}{}%
-\contentsline {subsubsection}{\numberline {6.3.7}Page des projets}{24}{}%
-\contentsline {subsection}{\numberline {6.4}Espace Admin}{24}{}%
-\contentsline {subsubsection}{\numberline {6.4.1}Page d'accueil}{24}{}%
-\contentsline {subsubsection}{\numberline {6.4.2}Espace d'administration}{25}{}%
-\contentsline {subsubsection}{\numberline {6.4.3}Page de modification du profil}{26}{}%
-\contentsline {subsubsection}{\numberline {6.4.4}Dashboard}{27}{}%
-\contentsline {section}{\numberline {7}Conclusion}{28}{}%
+\contentsline {section}{\numberline {1}Remerciements}{4}{section.1}%
+\contentsline {section}{\numberline {2}Résumé}{5}{section.2}%
+\contentsline {section}{\numberline {3}Contexte du Projet}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Objectifs du Projet}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Distribution des Tâches}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Conclusion}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conception}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Introduction}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Spécifications Fonctionnelles du Projet}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Spécifications Non-Fonctionnelles du Projet}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Les Acteurs du Système}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Les Diagrammes UML}{8}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Diagramme de Classe}{8}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Diagramme des Cas d'Utilisation}{9}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Diagramme d'États-Transitions}{13}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Diagramme de Séquence}{14}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.5}Diagramme d'Activité}{15}{subsubsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.6}Conclusion}{15}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Réalisation}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Outils de développement}{16}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Équipement logiciel}{16}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Langages d'implémentation}{17}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Frameworks et bibliothèques}{17}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}Conclusion}{17}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Mise en œuvre}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Page d'accueil}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Espace collaborateur}{18}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Page de Connexion}{18}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Page d'Inscription}{19}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Page de profil}{19}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Page de modification du profil}{20}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Page des questions, formations et événements}{20}{subsubsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.6}Page des connaissances}{23}{subsubsection.6.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.7}Page des projets}{24}{subsubsection.6.3.7}%
+\contentsline {subsection}{\numberline {6.4}Espace Admin}{24}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Page d'accueil}{24}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Espace d'administration}{25}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Page de modification du profil}{26}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Dashboard}{27}{subsubsection.6.4.4}%
+\contentsline {section}{\numberline {7}Conclusion}{28}{section.7}%
+\contentsline {section}{\numberline {8}Code source}{28}{section.8}%
