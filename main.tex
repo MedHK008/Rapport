@@ -35,18 +35,16 @@
     \newpage
     
     \section{Résumé}
-        L'objectif de ce projet est de développer une application web en utilisant le langage PHP
-        ,qui facilite les échanges,le partage d'informations et le support technique entre les collaborateurs d'une entreprise.
-        Cette plateforme de collaboration permettra aux employés de poser des questions, 
-        publier des annonces, partager des connaissances, gérer des formations et leurs profils.
-
-        Le rapport commence par une introduction contextuelle, détaillant les spécifications fonctionnelles et techniques de l'application. Il décrit ensuite les différentes phases de conception et de réalisation. Les outils et technologies employés sont également présentés, avec un chapitre spécifiquement consacré à la mise en œuvre concrète de l'application.
-    
-    \section{Contexte du projet}
+        Ce rapport présente le développement d'une application web de collaboration pour les entreprises, utilisant principalement le langage PHP. 
+        Le projet vise à faciliter la communication et la coordination entre les développeurs, en regroupant diverses fonctionnalités essentielles telles que le forum de questions/réponses, 
+        la gestion des annonces, la base de connaissances, la gestion des formations, des profils et des projets. En s'appuyant sur une conception soignée avec des diagrammes UML, 
+        l'application promet d'améliorer la productivité et l'efficacité des équipes en centralisant les échanges, le suivi des tâches et le partage de fichiers. 
+        La distribution des tâches entre les membres du groupe a permis une collaboration efficace, garantissant une réalisation de haute qualité. 
+        Ce rapport détaille les technologies utilisées, les spécifications fonctionnelles et non-fonctionnelles, ainsi que la répartition des rôles dans le développement du projet.
+    \section{Contexte du Projet}
         \subsection{Introduction}
             Tout projet de développement logiciel réussi repose sur la collaboration entre les développeurs au sein d'une entreprise. Cela leur offre la possibilité de transmettre leurs connaissances, de repérer aisément les erreurs et de trouver des solutions plus novatrices. Les développeurs peuvent optimiser la répartition des différentes tâches et garantir une intégration adéquate de chaque partie du code avec le reste du projet. Cependant, afin que cette collaboration soit réellement fluide, il est nécessaire d'avoir quelque chose en place qui facilite naturellement la communication et la coordination. C'est à ce moment-là qu'une application web intervient. Ce genre d'outil regroupe les échanges, le suivi des tâches, le partage de fichiers et la gestion des versions de code en un seul endroit, de manière à ce que tous les utilisateurs puissent y accéder.
-        
-        \subsection{Objectifs du projet}
+        \subsection{Objectifs du Projet}
             L'objectif principal de ce projet est de développer une application web de collaboration pour les entreprises, en utilisant le langage PHP. Les objectifs spécifiques incluent :
 
             \begin{itemize}
@@ -56,12 +54,9 @@
                 \item \textbf{Gestion des formations} : Permettre la gestion et le suivi des formations internes.
                 \item \textbf{Gestion des profils} : Offrir la possibilité de créer et de gérer les profils des employés.
             \end{itemize}
-
-        \subsection{Distribution des tâches}
-            Aucune tâche n'a été réalisée par un seul membre du groupe. Le travail est dédié à tous les membres du groupe, 
-            et chaque tâche est vérifiée par tous les membres du groupe.
-            Cette distribution concerne la réalisation initiale de la tâche (premier commit), puis on améliore cette dernière si nécessaire.\newline
-            si on ne spécifie pas la partie(backend ou frontend), donc le membre du groupe travaille sur les deux parties.\newline
+        \subsection{Distribution des Tâches}
+            Aucune tâche n'a été réalisée par un seul membre du groupe. Le travail est dédié à tous les membres du groupe, et chaque tâche est vérifiée par tous les membres du groupe. Cette distribution concerne la réalisation initiale de la tâche (premier commit), puis on améliore cette dernière si nécessaire. \newline
+            Si la partie (backend ou frontend) n'est pas spécifiée, le membre du groupe travaille sur les deux parties. \newline
             \begin{table}[h!]
                 \centering
                 \begin{tabular}{|l|l|}
@@ -74,41 +69,39 @@
                                 &
                     MCD (CHROQUI) \\
                                 &
-                    Diagrammes des cas d'utilisations (AMKASSOU) \\
+                    Diagrammes des cas d'utilisation (AMKASSOU) \\
                                 &
-                    Diagrammes d'états transitions (CHROQUI) \\
+                    Diagrammes d'états-transitions (CHROQUI) \\
                                 &
-                    Diagramme de Sequence (HERAK) \\
+                    Diagramme de séquence (HERAK) \\
                                 &
                     Diagramme d'activité (HERAK) \\
                     \hline
-                    réalisation &
-                    BDD, Les profile (frontend), systéme de notification, systéme des états des questions,\\
+                    Réalisation &
+                    BDD, profils (frontend), système de notification, système des états des questions, \\
                                 &
                     Modération des questions (AMKASSOU). \\
                                 &
-                    Pages d'accueil, Login et logout et inscription, questions, incription\\
+                    Pages d'accueil, login et logout, inscription, questions, inscription \\
                                 &
-                    dans les formations et annonces, like et dislike,\\
+                    aux formations et annonces, like et dislike, \\
                                 &
-                    gestion profile Admin(backend),la recherche et systéme des états des formation (CHROQUI). \\
+                    gestion profil admin (backend), recherche et système des états des formations (CHROQUI). \\
                                 &
-                    Pages des projets, evenements, base de connaissances, formations,\\
+                    Pages des projets, événements, base de connaissances, formations, \\
                                 &
-                    dashboard de l'Admin, gestion profile collaborateurs(backend) et la recherche (HERAK). \\
+                    dashboard de l'admin, gestion profil collaborateurs (backend) et recherche (HERAK). \\
                     \hline
                 \end{tabular}
-                \caption{Distribution des tâches}
+                \caption{Distribution des Tâches}
             \end{table}
             \FloatBarrier
         \subsection{Conclusion}
-            En conclusion, ce projet vise à créer une application web en PHP qui répond aux besoins de communication et de collaboration au sein des entreprises. En facilitant les échanges d'informations, le partage de connaissances et le support technique, cette plateforme contribuera à améliorer la productivité et l'efficacité des équipes. La gestion des formations et des profils des employés permettra également une meilleure organisation et un suivi plus rigoureux des compétences. Grâce à une mise en œuvre soignée et à l'utilisation des technologies appropriées et enrichissement des fonctionnalités, cette application promet de devenir un outil indispensable pour toute entreprise cherchant à optimiser ses processus internes.
-    
+            En conclusion, ce projet vise à créer une application web en PHP qui répond aux besoins de communication et de collaboration au sein des entreprises. En facilitant les échanges d'informations, le partage de connaissances et le support technique, cette plateforme contribuera à améliorer la productivité et l'efficacité des équipes. La gestion des formations et des profils des employés permettra également une meilleure organisation et un suivi plus rigoureux des compétences. Grâce à une mise en œuvre soignée et à l'utilisation des technologies appropriées, cette application promet de devenir un outil indispensable pour toute entreprise cherchant à optimiser ses processus internes.
+
     \section{Conception}
         \subsection{Introduction}
-            Dans cette partie on va présentés la conception du projet, réalisée a l'aide des Diagrammes UML.
-            section*{Analyse des Besoins Fonctionnels et Non-Fonctionnels}
-
+            Dans cette partie, nous allons présenter la conception du projet, réalisée à l'aide des diagrammes UML.
         \subsection{Spécifications Fonctionnelles du Projet}
             \begin{enumerate}
                 \item \textbf{Forum Question/Réponse :}
@@ -117,7 +110,7 @@
                 \item Fonctionnalités requises :
                     \begin{itemize}
                         \item Publication d'une question avec titre, description et projet concerné (optionnel).
-                        \item Passage d'état : Nouveau → En cours → Complété → résolu ou Relancé.
+                        \item Passage d'état : Nouveau → En cours → Complété → Résolu ou Relancé.
                         \item Notification pour l'émetteur lorsque complété.
                         \item Réactions aux réponses avec Like/Dislike, commentaires et notes.
                     \end{itemize}
@@ -145,7 +138,7 @@
                 \item \textbf{Gestion des Profils :}
                 \begin{itemize}
                     \item Chaque collaborateur a un compte avec gestion de profil.
-                    \item Informations personnelles, compétences et leurs niveau de maîtrise, rôles dans les projets.
+                    \item Informations personnelles, compétences et leurs niveaux de maîtrise, rôles dans les projets.
                 \end{itemize}
                 
                 \item \textbf{Gestion des Projets et Compétences :}
@@ -154,7 +147,6 @@
                     \item Définition et mise à jour des projets, rôles, compétences et niveaux de maîtrise.
                 \end{itemize}
             \end{enumerate}
-            
         \subsection{Spécifications Non-Fonctionnelles du Projet}
             \begin{itemize}
                 \item \textbf{Sécurité :} Authentification sécurisée pour l'accès aux fonctionnalités.
@@ -164,321 +156,354 @@
                 \item \textbf{Accessibilité :} Interface utilisateur intuitive et compatible avec différents navigateurs.
                 \item \textbf{Scalabilité :} Gestion efficace d'un nombre croissant d'utilisateurs et de données.
             \end{itemize}
-
-        \subsection{Les acteurs du systéme}  
+        \subsection{Les Acteurs du Système}  
             \begin{itemize}
-                \item \textbf{administrateur} : L'utilisateur qui a le droit d'ajouts et suppressions de projets,compétences et niveaux de maîtrise,la gestion des utilisateurs,supervision des formations,questions et annonces, et de la consulation du dashboard .
-                \item \textbf{collaborateurs} : L'utilisateur qui a le droit de publier des question,réponses,des annonces,des base de connaissances,des formations, de définir ses niveaux de maîtrise,ses rôles dans les projets.
+                \item \textbf{Administrateur :} L'utilisateur qui a le droit d'ajouter et supprimer des projets, compétences et niveaux de maîtrise, gérer les utilisateurs, superviser les formations, questions et annonces, et consulter le dashboard.
+                \item \textbf{Collaborateurs :} L'utilisateur qui a le droit de publier des questions, réponses, annonces, bases de connaissances, formations, de définir ses niveaux de maîtrise et ses rôles dans les projets.
             \end{itemize}
-
-        \subsection{les Diagrammes UML}
+        \subsection{Les Diagrammes UML}
             Tous les acteurs et leurs tâches sont présentés dans les diagrammes suivants :
             
-            \subsubsection{Diagrammes de Classe}
+            \subsubsection{Diagramme de Classe}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=1.0\textwidth]{assets/diagrammes/class.jpg}
                     \caption{Diagramme de Classe}
                 \end{figure}
-                \FloatBarrier   
-            \subsubsection{MCD}
-                % \begin{center}
-                %     \centering
-                %     \includegraphics[width=0.8\textwidth]{diagrammes/}
-                % \end{center}
+                \FloatBarrier 
 
-            \subsubsection{Diagrammes des cas d'utilisations}
-                \textbf{Diagramme des cas d'utilisations} : Tous les cas d'utilisation sont associés avec l'association d'inclusion « include » au 
-                cas d'utilisation « S'authentifier » :
+            \subsubsection{Diagramme des Cas d'Utilisation}
+                \textbf{Diagramme des cas d'utilisation :} Tous les cas d'utilisation sont associés avec l'association d'inclusion « include » au cas d'utilisation « S'authentifier » :
                 
-                Pour les questions: 
+                \textbf{Pour les questions :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg}
-                    \caption{Diagramme des cas d'utilisations - Question}
+                    \caption{Diagramme des cas d'utilisation - Question}
                 \end{figure}
                 
                 \FloatBarrier
                 
-                Les evenements : 
+                \textbf{Les événements :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg}
-                    \caption{Diagramme des cas d'utilisations - Event}
+                    \caption{Diagramme des cas d'utilisation - Événement}
                 \end{figure}
                 
                 \FloatBarrier
                 
-                La base des connaissances
+                \textbf{La base de connaissances :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg}
-                    \caption{Diagramme des cas d'utilisations - base de connaissances}
+                    \caption{Diagramme des cas d'utilisation - Base de connaissances}
                 \end{figure}
                 
                 \FloatBarrier
                 
-                Les formations
+                \textbf{Les formations :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg}
-                    \caption{Diagramme des cas d'utilisations - Formation}
+                    \caption{Diagramme des cas d'utilisation - Formation}
                 \end{figure}
                 
                 \FloatBarrier
                 
-                Profile collaborateur :
+                \textbf{Profil collaborateur :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg}
-                    \caption{Diagramme des cas d'utilisations - Collaboration}
+                    \caption{Diagramme des cas d'utilisation - Collaboration}
                 \end{figure}
                 
                 \FloatBarrier
                 
-                Les projets :
+                \textbf{Les projets :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg}
-                    \caption{Diagramme des cas d'utilisations - Projet}
+                    \caption{Diagramme des cas d'utilisation - Projet}
                 \end{figure}
                 \FloatBarrier
             
-            \subsubsection{Diagrammes d'Etats Transitions}
-                Pour les états d'une question :
+            \subsubsection{Diagramme d'États-Transitions}
+                \textbf{Pour les états d'une question :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/StateMachine1!Question_0.jpg}
-                    \caption{Diagramme d'Etats Transitions - Question}
+                    \caption{Diagramme d'États-Transitions - Question}
                 \end{figure}
                 \FloatBarrier
-                Pour les états d'une formation :
+                \textbf{Pour les états d'une formation :}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/jpg/StateMachine2!Formation_1.jpg}
-                    \caption{Diagramme d'Etats Transitions - Formation}
+                    \caption{Diagramme d'États-Transitions - Formation}
                 \end{figure}
                 \FloatBarrier
             
-            \subsubsection{Diagramme de Sequence}
-                % \begin{center}
-                %     \includegraphics[width=0.8\textwidth]{diagrammes/}
-                % \end{center}
+            \subsubsection{Diagramme de Séquence}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{assets/diagrammes/sequenceDiagram.jpg}
+                \caption{Diagramme de sequence - modifier une question}
+            \end{figure}
+            \FloatBarrier
 
             \subsubsection{Diagramme d'Activité}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.8\textwidth]{assets/diagrammes/ActivityDiagram.jpg}
-                    \caption{Diagramme d'activité - inscription}
+                    \caption{Diagramme d'activité - Inscription}
                 \end{figure}
                 \FloatBarrier
-        
         \subsection{Conclusion}
-            la partie conception de ce projet est finie. On passe maintenant vers la réalisation, mais avant on doit savoir l'importance de la conception,
-            la conception dans un projet informatique joue un rôle fondamental pour assurer le succès et la qualité du produit final, 
-            en alignant les besoins et les objectifs avec une structure technique et fonctionnelle bien définie. 
-            Elle constitue une étape préalable essentielle avant le développement proprement dit, 
-            permettant de poser des bases solides pour la réalisation du projet.
+                La partie conception de ce projet est terminée. Nous passons maintenant à la réalisation, mais avant cela, nous devons comprendre l'importance de la conception. 
+                La conception dans un projet informatique joue un rôle fondamental pour assurer le succès et la qualité du produit final, 
+                en alignant les besoins et les objectifs avec une structure technique et fonctionnelle bien définie. 
+                Elle constitue une étape préalable essentielle avant le développement proprement dit, 
+                permettant de poser des bases solides pour la réalisation du projet.
+    
             
-    \section{réalisation}
+    \section{Réalisation}
         \subsection{Introduction}
-            Dans cette partie on va présenter la réalisation du projet, avec les technologies,logiciel et bibliotheques utilisées.
-        
+            Dans cette partie, nous allons présenter la réalisation du projet, avec les technologies, logiciels et bibliothèques utilisées.
         \subsection{Outils de développement}
-            
-            \subsubsection{Equipement logiciel}
-                \begin{table}[h!]
-                    \centering
-                    \begin{tabular}{|m{2cm}|m{12cm}|}
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/vscode.png} &
-                        \textbf{Visual Studio Code} :
-                        
-                        Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
-                        \textbf{WAMP Server} :
-                        
-                        Pour que nous puissions fonctionner localement des scripts PHP, WAMP est l'abrégé de Windows, Apache, MySQL et PHP. On a choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que gérer des bases des données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
-                        \textbf{PhpMyAdmin} :
-                        
-                        PHPMyAdmin : interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions et importer ou exporter les données dans divers formats. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
-                        \textbf{MySQL} :
-                        
-                        MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
-                        \textbf{StarUML} :
-                        
-                        StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/github-mark.png} &
-                        \textbf{GitHub} :
-                        
-                        GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
-                        \hline
-                    \end{tabular}
-                    \caption{Equipement logicielles}
-                \end{table}
-            \FloatBarrier
-            \subsubsection{Langages d'implémentation}
-                \begin{table}[h!]
-                    \centering
-                    \begin{tabular}{|m{2cm}|m{12cm}|}
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/PHP_logo.png} &
-                        \textbf{PHP} :
-                        
-                        PHP : (HyperText Preprocessor) langage de programmation libre, principalement utilisé pour produire des pages web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/js.jpg} &
-                        \textbf{JavaScript} :
-                        
-                        JavaScript : un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser. Bon, peut-être pas tout, mais vous pouvez faire bien des choses avec quelques lignes de JavaScript. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/html.jpg} &
-                        \textbf{HTML} :
-                        
-                        HTML : (HyperText Markup Language) langage de balisage permettant d'écrire de l'hypertexte. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d'inclure des ressources multimédias dont des images, des formulaires, et des éléments programmables tels que des applets. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l'accessibilité du web. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/css.png} &
-                        \textbf{CSS} :
-                        
-                        CSS est un langage de style dont la syntaxe est simple mais son effet est remarquable, il s'intéresse à la mise en forme du contenu intégré avec du HTML. \\
-                        \hline
-                    \end{tabular}
-                    \caption{Langages d'implémentation}
-                \end{table}
-            \FloatBarrier
-            \subsubsection{Frameworks et bibliothèques}
-                \begin{table}[h!]
-                    \centering
-                    \begin{tabular}{|m{2cm}|m{12cm}|}
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/OIP (1).jpg} &
-                        \textbf{Bootstrap} :
-                        
-                        Bootstrap : Collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/jq.png} &
-                        \textbf{JQuery} :
-                        
-                        JQuery : Bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web. \\
-                        \hline
-                        \includegraphics[width=2cm]{assets/logos/ajax.png} &
-                        \textbf{AJAX} :
-                        
-                        AJAX : architecture logicielle permettant de créer des pages et des applications web capables d'interagir avec l'utilisateur et/ou d'autres applications sans qu'il soit nécessaire de recharger cette page dans le navigateur web du poste client. AJAX s'appuie sur des technologies présentes dans les différents navigateurs web, dont JavaScript (JS) et XML. \\
-                        \hline
-                    \end{tabular}
-                    \caption{Frameworks et bibliothèques}
-                \end{table}
-            \FloatBarrier
+                
+                \subsubsection{Équipement logiciel}
+                    \begin{table}[h!]
+                        \centering
+                        \begin{tabular}{|m{2cm}|m{12cm}|}
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/vscode.png} &
+                            \textbf{Visual Studio Code} :
+                            
+                            Visual Studio Code (VS Code) est un éditeur de code source gratuit, léger et extrêmement populaire développé par Microsoft. Il offre un large éventail de fonctionnalités et de plugins qui en font un outil polyvalent pour les développeurs. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/wamp.jpg} &
+                            \textbf{WAMP Server} :
+                            
+                            Pour que nous puissions exécuter localement des scripts PHP, WAMP est l'abréviation de Windows, Apache, MySQL et PHP. Nous avons choisi d'utiliser WampServer parce qu'il facilite le travail via une interface d'administration ainsi que la gestion des bases de données. Il contient les dernières versions existantes des logiciels comme Apache et PHP. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/OIP.jpg} &
+                            \textbf{PhpMyAdmin} :
+                            
+                            PhpMyAdmin est une interface web en PHP pour administrer à distance les SGBD MySQL et MariaDB. Il permet d'administrer les bases de données, les tables et leurs champs, les index, les clés primaires et étrangères, les utilisateurs de la base et leurs permissions, et d'importer ou exporter les données dans divers formats. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/mysql_PNG22.png} &
+                            \textbf{MySQL} :
+                            
+                            MySQL est un serveur de bases de données relationnelles SQL développé pour des performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/staruml-icon.png} &
+                            \textbf{StarUML} :
+                            
+                            StarUML est un outil de génie logiciel dédié à la modélisation UML. Il est multiplateforme et fonctionne sous Windows, Linux et MacOS. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/github-mark.png} &
+                            \textbf{GitHub} :
+                            
+                            GitHub est une plateforme en ligne populaire qui offre des fonctionnalités de gestion de versions et de collaboration pour les projets de développement de logiciels. \\
+                            \hline
+                        \end{tabular}
+                        \caption{Équipement logiciel}
+                    \end{table}
+                \FloatBarrier
+                \subsubsection{Langages d'implémentation}
+                    \begin{table}[h!]
+                        \centering
+                        \begin{tabular}{|m{2cm}|m{12cm}|}
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/PHP_logo.png} &
+                            \textbf{PHP} :
+                            
+                            PHP (HyperText Preprocessor) est un langage de programmation libre, principalement utilisé pour produire des pages web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/js.jpg} &
+                            \textbf{JavaScript} :
+                            
+                            JavaScript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et bien d'autres choses encore. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/html.jpg} &
+                            \textbf{HTML} :
+                            
+                            HTML (HyperText Markup Language) est un langage de balisage permettant d'écrire de l'hypertexte. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d'inclure des ressources multimédias telles que des images, des formulaires, et des éléments programmables tels que des applets. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l'accessibilité du web. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/css.png} &
+                            \textbf{CSS} :
+                            
+                            CSS est un langage de style dont la syntaxe est simple mais son effet est remarquable. Il s'intéresse à la mise en forme du contenu intégré avec du HTML. \\
+                            \hline
+                        \end{tabular}
+                        \caption{Langages d'implémentation}
+                    \end{table}
+                \FloatBarrier
+                \subsubsection{Frameworks et bibliothèques}
+                    \begin{table}[h!]
+                        \centering
+                        \begin{tabular}{|m{2cm}|m{12cm}|}
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/OIP (1).jpg} &
+                            \textbf{Bootstrap} :
+                            
+                            Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/jq.png} &
+                            \textbf{JQuery} :
+                            
+                            JQuery est une bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web. \\
+                            \hline
+                            \includegraphics[width=2cm]{assets/logos/ajax.png} &
+                            \textbf{AJAX} :
+                            
+                            AJAX est une architecture logicielle permettant de créer des pages et des applications web capables d'interagir avec l'utilisateur et/ou d'autres applications sans qu'il soit nécessaire de recharger cette page dans le navigateur web du poste client. AJAX s'appuie sur des technologies présentes dans les différents navigateurs web, dont JavaScript (JS) et XML. \\
+                            \hline
+                        \end{tabular}
+                        \caption{Frameworks et bibliothèques}
+                    \end{table}
+                \FloatBarrier
         \subsection{Conclusion}
-            Durant ce projet, nous avons eu l'opportunité de travailler avec une gamme variée de technologies, notamment PHP, JavaScript, HTML, CSS, Bootstrap, JQuery, AJAX, GitHub, Visual Studio Code, PhpMyAdmin et WAMP Server. 
-
-            Ces outils nous ont permis d'appliquer concrètement les connaissances acquises dans le cadre du module de Technologie Web. Nous considérons ces technologies comme les fondements du développement web et, grâce à ce projet, nous avons établi une base solide pour l'exploration de nouvelles technologies à l'avenir.
+                Durant ce projet, nous avons eu l'opportunité de travailler avec une gamme variée de technologies, notamment PHP, JavaScript, HTML, CSS, Bootstrap, JQuery, AJAX, GitHub, Visual Studio Code, PhpMyAdmin et WAMP Server. 
     
-            \section{Mise en œuvre}
+                Ces outils nous ont permis d'appliquer concrètement les connaissances acquises dans le cadre du module de Technologie Web. Nous considérons ces technologies comme les fondements du développement web et, grâce à ce projet, nous avons établi une base solide pour l'exploration de nouvelles technologies à l'avenir.
+    
+    \section{Mise en œuvre}
+        \subsection{Introduction}
             Dans cette section, nous allons détailler la mise en œuvre du projet. Cet espace de collaboration peut être divisé en deux parties : la première, dédiée aux collaborateurs, et la seconde, réservée à l'administration.
-            \subsection{Page d'accueil}
-                    Une page partagée entre les deux acteurs, vise à rediriger l'utilisateur vers la page de connexion, qu'il soit un administrateur ou un collaborateur.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/homePage.png}
-                        \caption{Page d'accueil}
-                    \end{figure}
-                    \FloatBarrier
-            \subsection{Espace collaborateur}
-                \subsubsection{Page de Connexion}
-                    La connexion est utilisée pour sécuriser la session et rediriger l'utilisateur vers la page de profil. En PHP, les sessions sont utilisées pour stocker des informations sur l'utilisateur de manière persistante pendant qu'il navigue sur le site. Cela permet, par exemple, de maintenir un utilisateur connecté entre différentes pages. Chaque session est identifiée de manière unique par un identifiant de session (session ID) qui est généralement stocké dans un cookie côté client.
-                    Ainsi, elle assure que l'utilisateur ne se connecte qu'une seule fois sur le site, et que s'il n'a pas de session, il ne peut pas accéder à la plateforme.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.7\textwidth]{assets/webSite/loginCollab.jpeg}
-                        \caption{Page de Connexion}
-                    \end{figure}
-                    \FloatBarrier
-                \subsubsection{Page d'Inscription}
-                    Dans le cas où le membre souhaite s'inscrire sur le site, il sera redirigé vers la page d'inscription où il enverra une demande avec ses informations personnelles, et le membre sera inscrit sur le site si l'administrateur accepte la demande.
-                    Chaque membre accepté reçoit un email de confirmation, qui contient les informations de connexion.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.3\textwidth]{assets/webSite/envoieDemande.jpeg}
-                        \caption{Page d'Inscription}
-                    \end{figure}
-                    \FloatBarrier
-                \subsubsection{Page de profil}
-                    Chaque collaborateur a une page de profil où il peut voir les questions qu'il a posées, les formations et événements qui l'intéressent, ainsi qu'une gestion de ses questions.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/profielPage.jpeg}
-                        \caption{Page de profil}
-                    \end{figure}
-                    \FloatBarrier
-                \subsubsection{Page de modification du profil}
-                    Depuis le profil et en cliquant sur un simple bouton, le collaborateur est redirigé vers une page où il peut modifier la totalité des informations de son profil.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/modifProfile.png}
-                        \caption{Page de modification du profil}
-                    \end{figure}
-                    \FloatBarrier
-                \subsubsection{Page des questions, formations et événements}
-                    Cette page contient les questions posées par tous les collaborateurs, ainsi que les informations sur les formations et événements disponibles. Sur cette page, le collaborateur peut ajouter et répondre à une question, ajouter ou s'intéresser à une formation ou un événement.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/Acceuil.png}
-                        \caption{Page des questions, formations et événements}
-                    \end{figure}
-                    \FloatBarrier
-                    L'ajout d'une question ou d'une formation, d'un événement, d'un projet, ou même d'une connaissance se fait de la même manière, en cliquant sur le bouton correspondant et en remplissant les informations. Le formulaire est envoyé au serveur et traité.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/addQuestion.png}
-                        \caption{Ajouter une question}
-                    \end{figure}
-                    \FloatBarrier
-                    Il en est de même pour la recherche, le collaborateur peut effectuer une recherche par titre pour les questions, formations, événements et connaissances.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/search.png}
-                        \caption{Recherche}
-                    \end{figure}
-                    \FloatBarrier 
-                \subsubsection{Page des connaissances}
-                    Le collaborateur peut accéder aussi à cet espace dédié aux connaissances, qui sont partagées soit par lui-même soit par un autre collaborateur. Il peut également ajouter des connaissances et les partager avec d'autres collaborateurs. La barre à gauche a pour but de simplifier la navigation.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance.png}
-                        \caption{Page des connaissances}
-                    \end{figure}
-                    \FloatBarrier
-                    Pour ne pas charger la page des connaissances à chaque fois qu'un utilisateur y accède, aucune connaissance n'est affichée sauf si le collaborateur clique sur le bouton `voir détails`. On affiche seulement les informations qui aident à identifier la connaissance au début.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/base-de-connaissance_demo.png}
-                        \caption{Détails des connaissances}
-                    \end{figure}
-                    \FloatBarrier
-                \subsubsection{Page des projets}
-                    Voici la page des projets, où le collaborateur peut consulter les projets en cours.
-                    \begin{figure}[h!]
-                        \centering
-                        \includegraphics[width=0.8\textwidth]{assets/webSite/projectsPage.png}
-                        \caption{Page des projets}
-                    \end{figure}
-                    \FloatBarrier
-    
-        \subsection{Espace Admin}
-            \subsubsection{Page d'accueil}
-            \subsubsection{Espace d'administration}
+        \subsection{Page d'accueil}
+            Une page partagée entre les deux acteurs, vise à rediriger l'utilisateur vers la page de connexion, qu'il soit un administrateur ou un collaborateur.
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{assets/webSite/homePage.png}
+                \caption{Page d'accueil}
+            \end{figure}
+            \FloatBarrier
+        \subsection{Espace collaborateur}
+            \subsubsection{Page de Connexion}
+                La connexion est utilisée pour sécuriser la session et rediriger l'utilisateur vers la page de profil. En PHP, les sessions sont utilisées pour stocker des informations sur l'utilisateur de manière persistante pendant qu'il navigue sur le site. Cela permet, par exemple, de maintenir un utilisateur connecté entre différentes pages. Chaque session est identifiée de manière unique par un identifiant de session (session ID) qui est généralement stocké dans un cookie côté client.
+                Ainsi, elle assure que l'utilisateur ne se connecte qu'une seule fois sur le site, et que s'il n'a pas de session, il ne peut pas accéder à la plateforme.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.7\textwidth]{assets/webSite/loginCollab.jpeg}
+                    \caption{Page de Connexion}
+                \end{figure}
+                \FloatBarrier
+            \subsubsection{Page d'Inscription}
+                Dans le cas où le membre souhaite s'inscrire sur le site, il sera redirigé vers la page d'inscription où il enverra une demande avec ses informations personnelles, et le membre sera inscrit sur le site si l'administrateur accepte la demande.
+                Chaque membre accepté reçoit un email de confirmation, qui contient les informations de connexion.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.3\textwidth]{assets/webSite/envoieDemande.jpeg}
+                    \caption{Page d'Inscription}
+                \end{figure}
+                \FloatBarrier
+            \subsubsection{Page de profil}
+                Chaque collaborateur a une page de profil où il peut voir les questions qu'il a posées, les formations et événements qui l'intéressent, ainsi qu'une gestion de ses questions.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/profielPage.jpeg}
+                    \caption{Page de profil}
+                \end{figure}
+                \FloatBarrier
             \subsubsection{Page de modification du profil}
-            \subsubsection{Dashboard}
-    \section{Conclusion}
+                Depuis le profil et en cliquant sur un simple bouton, le collaborateur est redirigé vers une page où il peut modifier la totalité des informations de son profil.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/modifProfile.png}
+                    \caption{Page de modification du profil}
+                \end{figure}
+                \FloatBarrier
+            \subsubsection{Page des questions, formations et événements}
+                Cette page contient les questions posées par tous les collaborateurs, ainsi que les informations sur les formations et événements disponibles. Sur cette page, le collaborateur peut ajouter et répondre à une question, ajouter ou s'intéresser à une formation ou un événement.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/Acceuil.png}
+                    \caption{Page des questions, formations et événements}
+                \end{figure}
+                \FloatBarrier
+                L'ajout d'une question ou d'une formation, d'un événement, d'un projet, ou même d'une connaissance se fait de la même manière, en cliquant sur le bouton correspondant et en remplissant les informations. Le formulaire est envoyé au serveur et traité.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/addQuestion.png}
+                    \caption{Ajouter une question}
+                \end{figure}
+                \FloatBarrier
+                Il en est de même pour la recherche, le collaborateur peut effectuer une recherche par titre pour les questions, formations, événements et connaissances.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/search.png}
+                    \caption{Recherche}
+                \end{figure}
+                \FloatBarrier 
+            \subsubsection{Page des connaissances}
+                Le collaborateur peut accéder aussi à cet espace dédié aux connaissances, qui sont partagées soit par lui-même soit par un autre collaborateur. Il peut également ajouter des connaissances et les partager avec d'autres collaborateurs. La barre à gauche a pour but de simplifier la navigation.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.7\textwidth]{assets/webSite/base-de-connaissance.png}
+                    \caption{Page des connaissances}
+                \end{figure}
+                \FloatBarrier
+                Pour ne pas charger la page des connaissances à chaque fois qu'un utilisateur y accède, aucune connaissance n'est affichée sauf si le collaborateur clique sur le bouton `voir détails`. On affiche seulement les informations qui aident à identifier la connaissance au début.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.7\textwidth]{assets/webSite/base-de-connaissance_demo.png}
+                    \caption{Détails des connaissances}
+                \end{figure}
+                \FloatBarrier
+            \subsubsection{Page des projets}
+                Voici la page des projets, où le collaborateur peut consulter les projets en cours.
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.8\textwidth]{assets/webSite/projectsPage.png}
+                    \caption{Page des projets}
+                \end{figure}
+                \FloatBarrier
+        \subsection{Espace Admin}
+                    \subsubsection{Page d'accueil}
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.8\textwidth]{assets/webSite/loginAdmin.png}
+                            \caption{Page d'accueil}
+                        \end{figure}
+                        \FloatBarrier
+                    \subsubsection{Espace d'administration}
+                        Dédié aux administrateurs, cet espace permet de modifier, superviser et ajouter les :
+                        \begin{itemize}
+                            \item Utilisateurs
+                            \item Projets
+                            \item Compétences
+                            \item Rôles
+                        \end{itemize}
+                        Et aussi de supprimer les questions, accepter les demandes d'adhésion et définir les niveaux de maîtrise.
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.8\textwidth]{assets/webSite/AdminProfile.jpeg}
+                            \caption{Espace d'administration}
+                        \end{figure}
+                        \FloatBarrier
+                    \subsubsection{Page de modification du profil}
+                        L'administrateur peut modifier le profil de son compte.
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.8\textwidth]{assets/webSite/AdminModif.jpeg}
+                            \caption{Page de modification du profil}
+                        \end{figure}
+                        \FloatBarrier
+                    \subsubsection{Dashboard}
+                        L'administrateur peut consulter les statistiques des collaborateurs, projets et questions, ainsi que les demandes d'adhésion.
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.8\textwidth]{assets/webSite/dashboard.jpeg}
+                            \caption{Dashboard}
+                        \end{figure}
+                        \FloatBarrier
         
+    \section{Conclusion}
+        En conclusion, ce projet a permis de créer une application web robuste et efficace, répondant aux besoins de communication et de collaboration des entreprises. 
+        Grâce à l'utilisation des technologies appropriées et à une conception bien définie, l'application facilite les échanges d'informations, le partage de connaissances et le support technique, 
+        contribuant ainsi à améliorer la productivité et l'efficacité des équipes. La gestion des formations et des profils des employés offre une meilleure organisation et un suivi rigoureux des compétences. 
+        La collaboration entre les membres du groupe, ainsi que la répartition claire des tâches, ont été essentielles pour la réussite de ce projet. 
+        Cette application web représente un outil indispensable pour toute entreprise cherchant à optimiser ses processus internes et à renforcer la collaboration entre ses employés.
 \end{document}

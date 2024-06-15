@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  15 JUN 2024 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  15 JUN 2024 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,7 +341,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3]
 
 [4]
-Overfull \hbox (29.6482pt too wide) in paragraph at lines 67--101
+Overfull \hbox (22.48328pt too wide) in paragraph at lines 62--96
  [][] 
  []
 
@@ -356,7 +356,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <assets/diagrammes/class.jpg, id=22, 1523.6925pt x 925.4575pt>
 File: assets/diagrammes/class.jpg Graphic file (type jpg)
 <use assets/diagrammes/class.jpg>
-Package pdftex.def Info: assets/diagrammes/class.jpg  used on input line 180.
+Package pdftex.def Info: assets/diagrammes/class.jpg  used on input line 170.
 (pdftex.def)             Requested size: 452.9679pt x 275.11168pt.
 
 
@@ -365,32 +365,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [7]
-Overfull \hbox (3.41232pt too wide) in paragraph at lines 191--193
-\T1/cmr/bx/n/10 Diagramme des cas d'utilisations \T1/cmr/m/n/10 : Tous les cas d'utilisation sont as-so-ciés avec l'association d'inclusion
- []
-
 <assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg, id=26, 1155.31625pt x 869.2475pt>
 File: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg  used on input line 197.
+Package pdftex.def Info: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg  used on input line 181.
 (pdftex.def)             Requested size: 362.37569pt x 272.6472pt.
 <assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg, id=27, 669.50125pt x 596.2275pt>
 File: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg  used on input line 206.
+Package pdftex.def Info: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg  used on input line 190.
 (pdftex.def)             Requested size: 362.37569pt x 322.72226pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [8 <./assets/diagrammes/class.jpg> <./assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg>]
 <assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg, id=32, 1144.275pt x 422.57875pt>
 File: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg  used on input line 215.
+Package pdftex.def Info: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg  used on input line 199.
 (pdftex.def)             Requested size: 362.37569pt x 133.82228pt.
-<assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg, id=33, 1154.3125pt x 594.22pt>
+<assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg, id=33, 865.73438pt x 445.665pt>
 File: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg  used on input line 224.
+Package pdftex.def Info: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg  used on input line 208.
 (pdftex.def)             Requested size: 362.37569pt x 186.5456pt.
 
 
@@ -402,12 +402,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg, id=37, 1167.36125pt x 923.45pt>
 File: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg  used on input line 233.
+Package pdftex.def Info: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg  used on input line 217.
 (pdftex.def)             Requested size: 362.37569pt x 286.66107pt.
 <assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg, id=38, 1173.38374pt x 547.04375pt>
 File: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg  used on input line 242.
+Package pdftex.def Info: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg  used on input line 226.
 (pdftex.def)             Requested size: 362.37569pt x 168.93907pt.
 
 
@@ -419,12 +419,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <assets/diagrammes/jpg/StateMachine1!Question_0.jpg, id=42, 923.45pt x 733.74126pt>
 File: assets/diagrammes/jpg/StateMachine1!Question_0.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/StateMachine1!Question_0.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/StateMachine1!Question_0.jpg  used on input line 251.
+Package pdftex.def Info: assets/diagrammes/jpg/StateMachine1!Question_0.jpg  used on input line 235.
 (pdftex.def)             Requested size: 362.37569pt x 287.9269pt.
 <assets/diagrammes/jpg/StateMachine2!Formation_1.jpg, id=43, 860.21375pt x 662.475pt>
 File: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/StateMachine2!Formation_1.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg  used on input line 258.
+Package pdftex.def Info: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg  used on input line 242.
 (pdftex.def)             Requested size: 362.37569pt x 279.07661pt.
 
 
@@ -433,11 +433,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [11 <./assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg> <./assets/diagrammes/jpg/StateMachine1!Question_0.jpg>]
-<assets/diagrammes/ActivityDiagram.jpg, id=47, 756.8275pt x 941.5175pt>
-File: assets/diagrammes/ActivityDiagram.jpg Graphic file (type jpg)
-<use assets/diagrammes/ActivityDiagram.jpg>
-Package pdftex.def Info: assets/diagrammes/ActivityDiagram.jpg  used on input line 271.
-(pdftex.def)             Requested size: 362.37569pt x 450.80269pt.
+<assets/diagrammes/sequenceDiagram.jpg, id=47, 885.3075pt x 1086.0575pt>
+File: assets/diagrammes/sequenceDiagram.jpg Graphic file (type jpg)
+<use assets/diagrammes/sequenceDiagram.jpg>
+Package pdftex.def Info: assets/diagrammes/sequenceDiagram.jpg  used on input line 250.
+(pdftex.def)             Requested size: 362.37569pt x 444.5573pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -445,58 +445,70 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [12 <./assets/diagrammes/jpg/StateMachine2!Formation_1.jpg>]
-<assets/logos/vscode.png, id=51, 1027.84pt x 1027.84pt>
+<assets/diagrammes/ActivityDiagram.jpg, id=51, 756.8275pt x 941.5175pt>
+File: assets/diagrammes/ActivityDiagram.jpg Graphic file (type jpg)
+<use assets/diagrammes/ActivityDiagram.jpg>
+Package pdftex.def Info: assets/diagrammes/ActivityDiagram.jpg  used on input line 258.
+(pdftex.def)             Requested size: 362.37569pt x 450.80269pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[13 <./assets/diagrammes/sequenceDiagram.jpg>]
+<assets/logos/vscode.png, id=55, 1027.84pt x 1027.84pt>
 File: assets/logos/vscode.png Graphic file (type png)
 <use assets/logos/vscode.png>
-Package pdftex.def Info: assets/logos/vscode.png  used on input line 294.
+Package pdftex.def Info: assets/logos/vscode.png  used on input line 280.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
-<assets/logos/wamp.jpg, id=53, 770.88pt x 603.75563pt>
+<assets/logos/wamp.jpg, id=57, 770.88pt x 603.75563pt>
 File: assets/logos/wamp.jpg Graphic file (type jpg)
 <use assets/logos/wamp.jpg>
-Package pdftex.def Info: assets/logos/wamp.jpg  used on input line 299.
+Package pdftex.def Info: assets/logos/wamp.jpg  used on input line 285.
 (pdftex.def)             Requested size: 56.9055pt x 44.56113pt.
-<assets/logos/OIP.jpg, id=54, 475.7775pt x 475.7775pt>
+<assets/logos/OIP.jpg, id=58, 475.7775pt x 475.7775pt>
 File: assets/logos/OIP.jpg Graphic file (type jpg)
 <use assets/logos/OIP.jpg>
-Package pdftex.def Info: assets/logos/OIP.jpg  used on input line 304.
+Package pdftex.def Info: assets/logos/OIP.jpg  used on input line 290.
 (pdftex.def)             Requested size: 56.9055pt x 56.90207pt.
-<assets/logos/mysql_PNG22.png, id=55, 2810.5pt x 2810.5pt>
+<assets/logos/mysql_PNG22.png, id=59, 2810.5pt x 2810.5pt>
 File: assets/logos/mysql_PNG22.png Graphic file (type png)
 <use assets/logos/mysql_PNG22.png>
-Package pdftex.def Info: assets/logos/mysql_PNG22.png  used on input line 309.
+Package pdftex.def Info: assets/logos/mysql_PNG22.png  used on input line 295.
 (pdftex.def)             Requested size: 56.9055pt x 56.86513pt.
-<assets/logos/staruml-icon.png, id=56, 256.96pt x 256.96pt>
+<assets/logos/staruml-icon.png, id=60, 256.96pt x 256.96pt>
 File: assets/logos/staruml-icon.png Graphic file (type png)
 <use assets/logos/staruml-icon.png>
-Package pdftex.def Info: assets/logos/staruml-icon.png  used on input line 314.
+Package pdftex.def Info: assets/logos/staruml-icon.png  used on input line 300.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
-<assets/logos/github-mark.png, id=57, 48.18pt x 48.18pt>
+<assets/logos/github-mark.png, id=61, 48.18pt x 48.18pt>
 File: assets/logos/github-mark.png Graphic file (type png)
 <use assets/logos/github-mark.png>
-Package pdftex.def Info: assets/logos/github-mark.png  used on input line 319.
+Package pdftex.def Info: assets/logos/github-mark.png  used on input line 305.
 (pdftex.def)             Requested size: 56.9055pt x 56.90553pt.
 
 
-[13 <./assets/diagrammes/ActivityDiagram.jpg>]
-<assets/logos/PHP_logo.png, id=61, 3764.0625pt x 1979.14406pt>
+[14 <./assets/diagrammes/ActivityDiagram.jpg>]
+<assets/logos/PHP_logo.png, id=66, 3764.0625pt x 1979.14406pt>
 File: assets/logos/PHP_logo.png Graphic file (type png)
 <use assets/logos/PHP_logo.png>
-Package pdftex.def Info: assets/logos/PHP_logo.png  used on input line 333.
+Package pdftex.def Info: assets/logos/PHP_logo.png  used on input line 319.
 (pdftex.def)             Requested size: 56.9055pt x 29.89726pt.
-<assets/logos/js.jpg, id=62, 475.7775pt x 475.7775pt>
+<assets/logos/js.jpg, id=67, 475.7775pt x 475.7775pt>
 File: assets/logos/js.jpg Graphic file (type jpg)
 <use assets/logos/js.jpg>
-Package pdftex.def Info: assets/logos/js.jpg  used on input line 338.
+Package pdftex.def Info: assets/logos/js.jpg  used on input line 324.
 (pdftex.def)             Requested size: 56.9055pt x 56.90207pt.
-<assets/logos/html.jpg, id=63, 475.7775pt x 670.505pt>
+<assets/logos/html.jpg, id=68, 475.7775pt x 670.505pt>
 File: assets/logos/html.jpg Graphic file (type jpg)
 <use assets/logos/html.jpg>
-Package pdftex.def Info: assets/logos/html.jpg  used on input line 343.
+Package pdftex.def Info: assets/logos/html.jpg  used on input line 329.
 (pdftex.def)             Requested size: 56.9055pt x 80.19112pt.
-<assets/logos/css.png, id=64, 1331.28947pt x 1879.02pt>
+<assets/logos/css.png, id=69, 1331.28947pt x 1879.02pt>
 File: assets/logos/css.png Graphic file (type png)
 <use assets/logos/css.png>
-Package pdftex.def Info: assets/logos/css.png  used on input line 348.
+Package pdftex.def Info: assets/logos/css.png  used on input line 334.
 (pdftex.def)             Requested size: 56.9055pt x 80.30887pt.
 
 
@@ -504,110 +516,114 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[14 <./assets/logos/vscode.png> <./assets/logos/wamp.jpg> <./assets/logos/OIP.jpg> <./assets/logos/mysql_PNG22.png> <./assets/logos/staruml-icon.png> <./assets/logos/github-mark.png>]
-<assets/logos/OIP (1).jpg, id=73, 475.7775pt x 378.41376pt>
+[15 <./assets/logos/vscode.png> <./assets/logos/wamp.jpg> <./assets/logos/OIP.jpg> <./assets/logos/mysql_PNG22.png> <./assets/logos/staruml-icon.png> <./assets/logos/github-mark.png>]
+<assets/logos/OIP (1).jpg, id=77, 475.7775pt x 378.41376pt>
 File: assets/logos/OIP (1).jpg Graphic file (type jpg)
 <use assets/logos/OIP (1).jpg>
-Package pdftex.def Info: assets/logos/OIP (1).jpg  used on input line 362.
+Package pdftex.def Info: assets/logos/OIP (1).jpg  used on input line 348.
 (pdftex.def)             Requested size: 56.9055pt x 45.25755pt.
-<assets/logos/jq.png, id=74, 4111.36pt x 4111.36pt>
+<assets/logos/jq.png, id=78, 4111.36pt x 4111.36pt>
 File: assets/logos/jq.png Graphic file (type png)
 <use assets/logos/jq.png>
-Package pdftex.def Info: assets/logos/jq.png  used on input line 367.
+Package pdftex.def Info: assets/logos/jq.png  used on input line 353.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
-<assets/logos/ajax.png, id=75, 863.225pt x 903.375pt>
+<assets/logos/ajax.png, id=79, 863.225pt x 903.375pt>
 File: assets/logos/ajax.png Graphic file (type png)
 <use assets/logos/ajax.png>
-Package pdftex.def Info: assets/logos/ajax.png  used on input line 372.
+Package pdftex.def Info: assets/logos/ajax.png  used on input line 358.
 (pdftex.def)             Requested size: 56.9055pt x 59.5485pt.
 
 
-[15 <./assets/logos/PHP_logo.png> <./assets/logos/js.jpg> <./assets/logos/html.jpg> <./assets/logos/css.png> <./assets/logos/OIP (1).jpg> <./assets/logos/jq.png> <./assets/logos/ajax.png>]
-<assets/webSite/homePage.png, id=83, 1866.975pt x 888.31876pt>
+[16 <./assets/logos/PHP_logo.png> <./assets/logos/js.jpg> <./assets/logos/html.jpg> <./assets/logos/css.png> <./assets/logos/OIP (1).jpg> <./assets/logos/jq.png> <./assets/logos/ajax.png>]
+<assets/webSite/homePage.png, id=87, 1866.975pt x 888.31876pt>
 File: assets/webSite/homePage.png Graphic file (type png)
 <use assets/webSite/homePage.png>
-Package pdftex.def Info: assets/webSite/homePage.png  used on input line 392.
+Package pdftex.def Info: assets/webSite/homePage.png  used on input line 379.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
-<assets/webSite/loginCollab.jpeg, id=84, 1706.375pt x 811.03pt>
+<assets/webSite/loginCollab.jpeg, id=88, 1706.375pt x 811.03pt>
 File: assets/webSite/loginCollab.jpeg Graphic file (type jpg)
 <use assets/webSite/loginCollab.jpeg>
-Package pdftex.def Info: assets/webSite/loginCollab.jpeg  used on input line 402.
+Package pdftex.def Info: assets/webSite/loginCollab.jpeg  used on input line 389.
 (pdftex.def)             Requested size: 317.07614pt x 150.70647pt.
-<assets/webSite/envoieDemande.jpeg, id=85, 307.90031pt x 347.04657pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[17 <./assets/webSite/homePage.png>]
+<assets/webSite/envoieDemande.jpeg, id=93, 307.90031pt x 347.04657pt>
 File: assets/webSite/envoieDemande.jpeg Graphic file (type jpg)
 <use assets/webSite/envoieDemande.jpeg>
-Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 411.
+Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 398.
 (pdftex.def)             Requested size: 135.89174pt x 153.17226pt.
-
-
-[16 <./assets/webSite/homePage.png> <./assets/webSite/loginCollab.jpeg>]
-<assets/webSite/profielPage.jpeg, id=90, 1865.97125pt x 910.40125pt>
+<assets/webSite/profielPage.jpeg, id=94, 1865.97125pt x 910.40125pt>
 File: assets/webSite/profielPage.jpeg Graphic file (type jpg)
 <use assets/webSite/profielPage.jpeg>
-Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 419.
+Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 406.
 (pdftex.def)             Requested size: 362.37569pt x 176.79822pt.
-<assets/webSite/modifProfile.png, id=91, 1856.9375pt x 948.54375pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[18 <./assets/webSite/loginCollab.jpeg> <./assets/webSite/envoieDemande.jpeg>]
+<assets/webSite/modifProfile.png, id=98, 1856.9375pt x 948.54375pt>
 File: assets/webSite/modifProfile.png Graphic file (type png)
 <use assets/webSite/modifProfile.png>
-Package pdftex.def Info: assets/webSite/modifProfile.png  used on input line 427.
+Package pdftex.def Info: assets/webSite/modifProfile.png  used on input line 414.
 (pdftex.def)             Requested size: 362.37569pt x 185.10278pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[17 <./assets/webSite/envoieDemande.jpeg> <./assets/webSite/profielPage.jpeg>]
-<assets/webSite/Acceuil.png, id=95, 1400.23125pt x 666.23906pt>
+<assets/webSite/Acceuil.png, id=99, 1400.23125pt x 666.23906pt>
 File: assets/webSite/Acceuil.png Graphic file (type png)
 <use assets/webSite/Acceuil.png>
-Package pdftex.def Info: assets/webSite/Acceuil.png  used on input line 435.
+Package pdftex.def Info: assets/webSite/Acceuil.png  used on input line 422.
 (pdftex.def)             Requested size: 362.37569pt x 172.41495pt.
-<assets/webSite/addQuestion.png, id=96, 1866.975pt x 888.31876pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[19 <./assets/webSite/profielPage.jpeg> <./assets/webSite/modifProfile.png>]
+<assets/webSite/addQuestion.png, id=104, 1866.975pt x 888.31876pt>
 File: assets/webSite/addQuestion.png Graphic file (type png)
 <use assets/webSite/addQuestion.png>
-Package pdftex.def Info: assets/webSite/addQuestion.png  used on input line 442.
+Package pdftex.def Info: assets/webSite/addQuestion.png  used on input line 429.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[18 <./assets/webSite/modifProfile.png> <./assets/webSite/Acceuil.png>]
-<assets/webSite/search.png, id=102, 1866.975pt x 888.31876pt>
+<assets/webSite/search.png, id=105, 1866.975pt x 888.31876pt>
 File: assets/webSite/search.png Graphic file (type png)
 <use assets/webSite/search.png>
-Package pdftex.def Info: assets/webSite/search.png  used on input line 449.
+Package pdftex.def Info: assets/webSite/search.png  used on input line 436.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
-<assets/webSite/base-de-connaissance.png, id=103, 1866.975pt x 888.31876pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[20 <./assets/webSite/Acceuil.png> <./assets/webSite/addQuestion.png>]
+<assets/webSite/base-de-connaissance.png, id=112, 1866.975pt x 888.31876pt>
 File: assets/webSite/base-de-connaissance.png Graphic file (type png)
 <use assets/webSite/base-de-connaissance.png>
-Package pdftex.def Info: assets/webSite/base-de-connaissance.png  used on input line 457.
-(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[19 <./assets/webSite/addQuestion.png> <./assets/webSite/search.png>]
-<assets/webSite/base-de-connaissance_demo.png, id=109, 1119.18124pt x 1507.6325pt>
+Package pdftex.def Info: assets/webSite/base-de-connaissance.png  used on input line 444.
+(pdftex.def)             Requested size: 317.07614pt x 150.86308pt.
+<assets/webSite/base-de-connaissance_demo.png, id=113, 1119.18124pt x 1507.6325pt>
 File: assets/webSite/base-de-connaissance_demo.png Graphic file (type png)
 <use assets/webSite/base-de-connaissance_demo.png>
-Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on input line 464.
-(pdftex.def)             Requested size: 362.37569pt x 488.15741pt.
+Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on input line 451.
+(pdftex.def)             Requested size: 317.07614pt x 427.12622pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[20 <./assets/webSite/base-de-connaissance.png>]
-<assets/webSite/projectsPage.png, id=115, 1866.975pt x 888.31876pt>
+[21 <./assets/webSite/search.png> <./assets/webSite/base-de-connaissance.png>]
+<assets/webSite/projectsPage.png, id=119, 1866.975pt x 888.31876pt>
 File: assets/webSite/projectsPage.png Graphic file (type png)
 <use assets/webSite/projectsPage.png>
-Package pdftex.def Info: assets/webSite/projectsPage.png  used on input line 472.
+Package pdftex.def Info: assets/webSite/projectsPage.png  used on input line 459.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
 
 
@@ -615,26 +631,58 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[21 <./assets/webSite/base-de-connaissance_demo.png>]
+[22 <./assets/webSite/base-de-connaissance_demo.png>]
+<assets/webSite/loginAdmin.png, id=124, 1866.975pt x 888.31876pt>
+File: assets/webSite/loginAdmin.png Graphic file (type png)
+<use assets/webSite/loginAdmin.png>
+Package pdftex.def Info: assets/webSite/loginAdmin.png  used on input line 467.
+(pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
+<assets/webSite/AdminProfile.jpeg, id=125, 1706.375pt x 1728.4575pt>
+File: assets/webSite/AdminProfile.jpeg Graphic file (type jpg)
+<use assets/webSite/AdminProfile.jpeg>
+Package pdftex.def Info: assets/webSite/AdminProfile.jpeg  used on input line 482.
+(pdftex.def)             Requested size: 362.37569pt x 367.0484pt.
 
-[22 <./assets/webSite/projectsPage.png>] (main.aux)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[23 <./assets/webSite/projectsPage.png> <./assets/webSite/loginAdmin.png>]
+<assets/webSite/AdminModif.jpeg, id=131, 1706.375pt x 1004.75375pt>
+File: assets/webSite/AdminModif.jpeg Graphic file (type jpg)
+<use assets/webSite/AdminModif.jpeg>
+Package pdftex.def Info: assets/webSite/AdminModif.jpeg  used on input line 490.
+(pdftex.def)             Requested size: 362.37569pt x 213.36554pt.
+<assets/webSite/dashboard.jpeg, id=132, 1706.375pt x 2327.69624pt>
+File: assets/webSite/dashboard.jpeg Graphic file (type jpg)
+<use assets/webSite/dashboard.jpeg>
+Package pdftex.def Info: assets/webSite/dashboard.jpeg  used on input line 498.
+(pdftex.def)             Requested size: 362.37569pt x 494.30038pt.
+
+
+[24 <./assets/webSite/AdminProfile.jpeg> <./assets/webSite/AdminModif.jpeg>]
+
+[25 <./assets/webSite/dashboard.jpeg>]
+
+[26] (main.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6861 strings out of 473938
- 110951 string characters out of 5727391
+ 6896 strings out of 473938
+ 112290 string characters out of 5727391
  1941893 words of memory out of 5000000
- 29609 multiletter control sequences out of 15000+600000
+ 29644 multiletter control sequences out of 15000+600000
  564725 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,14n,93p,963b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (21 pages, 5143090 bytes).
+Output written on main.pdf (25 pages, 6264076 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
+ 396 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
