@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  15 JUN 2024 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.13)  15 JUN 2024 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -243,20 +243,20 @@ Package: placeins 2005/04/18  v 2.2
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (C:\Users\moham\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -343,11 +343,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4]
 
 [5]
-Overfull \hbox (22.48328pt too wide) in paragraph at lines 67--101
- [][] 
- []
-
-
 
 [6]
 
@@ -355,7 +350,7 @@ Overfull \hbox (22.48328pt too wide) in paragraph at lines 67--101
 <assets/diagrammes/class.jpg, id=25, 1523.6925pt x 925.4575pt>
 File: assets/diagrammes/class.jpg Graphic file (type jpg)
 <use assets/diagrammes/class.jpg>
-Package pdftex.def Info: assets/diagrammes/class.jpg  used on input line 175.
+Package pdftex.def Info: assets/diagrammes/class.jpg  used on input line 180.
 (pdftex.def)             Requested size: 452.9679pt x 275.11168pt.
 
 
@@ -363,12 +358,12 @@ Package pdftex.def Info: assets/diagrammes/class.jpg  used on input line 175.
 <assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg, id=30, 1155.31625pt x 869.2475pt>
 File: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg  used on input line 186.
+Package pdftex.def Info: assets/diagrammes/jpg/Model1!useCaseQuestion_0.jpg  used on input line 191.
 (pdftex.def)             Requested size: 362.37569pt x 272.6472pt.
 <assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg, id=31, 669.50125pt x 596.2275pt>
 File: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg  used on input line 195.
+Package pdftex.def Info: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg  used on input line 200.
 (pdftex.def)             Requested size: 271.7835pt x 242.04396pt.
 
 
@@ -376,12 +371,12 @@ Package pdftex.def Info: assets/diagrammes/jpg/Model2!UseCaseEvent_1.jpg  used o
 <assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg, id=35, 1144.275pt x 422.57875pt>
 File: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg  used on input line 204.
+Package pdftex.def Info: assets/diagrammes/jpg/Model3!UseCaseDoc_2.jpg  used on input line 209.
 (pdftex.def)             Requested size: 362.37569pt x 133.82228pt.
 <assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg, id=36, 865.73438pt x 445.665pt>
 File: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg  used on input line 213.
+Package pdftex.def Info: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg  used on input line 218.
 (pdftex.def)             Requested size: 362.37569pt x 186.5456pt.
 
 
@@ -389,12 +384,12 @@ Package pdftex.def Info: assets/diagrammes/jpg/Model4!UseCaseFormation_3.jpg  us
 <assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg, id=40, 1167.36125pt x 866.23625pt>
 File: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg  used on input line 222.
+Package pdftex.def Info: assets/diagrammes/jpg/Model5!UseCaseCollab_4.jpg  used on input line 227.
 (pdftex.def)             Requested size: 362.37569pt x 268.90056pt.
 <assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg, id=41, 1173.38374pt x 547.04375pt>
 File: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg  used on input line 230.
+Package pdftex.def Info: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg  used on input line 235.
 (pdftex.def)             Requested size: 362.37569pt x 168.93907pt.
 
 
@@ -402,7 +397,7 @@ Package pdftex.def Info: assets/diagrammes/jpg/Model6!UseCaseProject_5.jpg  used
 <assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg, id=45, 957.5775pt x 515.9275pt>
 File: assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg  used on input line 238.
+Package pdftex.def Info: assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg  used on input line 243.
 (pdftex.def)             Requested size: 362.37569pt x 195.24362pt.
 
 
@@ -410,17 +405,17 @@ Package pdftex.def Info: assets/diagrammes/jpg/Model7!UseCaseSkills_6.jpg  used 
 <assets/diagrammes/jpg/StateMachine1!Question_0.jpg, id=49, 923.45pt x 733.74126pt>
 File: assets/diagrammes/jpg/StateMachine1!Question_0.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/StateMachine1!Question_0.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/StateMachine1!Question_0.jpg  used on input line 247.
+Package pdftex.def Info: assets/diagrammes/jpg/StateMachine1!Question_0.jpg  used on input line 252.
 (pdftex.def)             Requested size: 362.37569pt x 287.9269pt.
 <assets/diagrammes/jpg/StateMachine2!Formation_1.jpg, id=50, 860.21375pt x 662.475pt>
 File: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg Graphic file (type jpg)
 <use assets/diagrammes/jpg/StateMachine2!Formation_1.jpg>
-Package pdftex.def Info: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg  used on input line 254.
+Package pdftex.def Info: assets/diagrammes/jpg/StateMachine2!Formation_1.jpg  used on input line 259.
 (pdftex.def)             Requested size: 362.37569pt x 279.07661pt.
 <assets/diagrammes/sequenceDiagram.jpg, id=51, 885.3075pt x 1086.0575pt>
 File: assets/diagrammes/sequenceDiagram.jpg Graphic file (type jpg)
 <use assets/diagrammes/sequenceDiagram.jpg>
-Package pdftex.def Info: assets/diagrammes/sequenceDiagram.jpg  used on input line 262.
+Package pdftex.def Info: assets/diagrammes/sequenceDiagram.jpg  used on input line 267.
 (pdftex.def)             Requested size: 362.37569pt x 444.5573pt.
 
 
@@ -430,7 +425,7 @@ Package pdftex.def Info: assets/diagrammes/sequenceDiagram.jpg  used on input li
 <assets/diagrammes/ActivityDiagram.jpg, id=59, 756.8275pt x 941.5175pt>
 File: assets/diagrammes/ActivityDiagram.jpg Graphic file (type jpg)
 <use assets/diagrammes/ActivityDiagram.jpg>
-Package pdftex.def Info: assets/diagrammes/ActivityDiagram.jpg  used on input line 270.
+Package pdftex.def Info: assets/diagrammes/ActivityDiagram.jpg  used on input line 275.
 (pdftex.def)             Requested size: 362.37569pt x 450.80269pt.
 
 
@@ -438,35 +433,35 @@ Package pdftex.def Info: assets/diagrammes/ActivityDiagram.jpg  used on input li
 <assets/logos/vscode.png, id=63, 1027.84pt x 1027.84pt>
 File: assets/logos/vscode.png Graphic file (type png)
 <use assets/logos/vscode.png>
-Package pdftex.def Info: assets/logos/vscode.png  used on input line 292.
+Package pdftex.def Info: assets/logos/vscode.png  used on input line 296.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
 <assets/logos/wamp.jpg, id=65, 770.88pt x 603.75563pt>
 File: assets/logos/wamp.jpg Graphic file (type jpg)
 <use assets/logos/wamp.jpg>
-Package pdftex.def Info: assets/logos/wamp.jpg  used on input line 297.
+Package pdftex.def Info: assets/logos/wamp.jpg  used on input line 301.
 (pdftex.def)             Requested size: 56.9055pt x 44.56113pt.
 <assets/logos/OIP.jpg, id=66, 475.7775pt x 475.7775pt>
 File: assets/logos/OIP.jpg Graphic file (type jpg)
 <use assets/logos/OIP.jpg>
-Package pdftex.def Info: assets/logos/OIP.jpg  used on input line 302.
+Package pdftex.def Info: assets/logos/OIP.jpg  used on input line 306.
 (pdftex.def)             Requested size: 56.9055pt x 56.90207pt.
 <assets/logos/mysql_PNG22.png, id=67, 2810.5pt x 2810.5pt>
 File: assets/logos/mysql_PNG22.png Graphic file (type png)
 <use assets/logos/mysql_PNG22.png>
-Package pdftex.def Info: assets/logos/mysql_PNG22.png  used on input line 307.
+Package pdftex.def Info: assets/logos/mysql_PNG22.png  used on input line 311.
 (pdftex.def)             Requested size: 56.9055pt x 56.86513pt.
 <assets/logos/staruml-icon.png, id=68, 256.96pt x 256.96pt>
 File: assets/logos/staruml-icon.png Graphic file (type png)
 <use assets/logos/staruml-icon.png>
-Package pdftex.def Info: assets/logos/staruml-icon.png  used on input line 312.
+Package pdftex.def Info: assets/logos/staruml-icon.png  used on input line 316.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
 <assets/logos/github-mark.png, id=69, 48.18pt x 48.18pt>
 File: assets/logos/github-mark.png Graphic file (type png)
 <use assets/logos/github-mark.png>
-Package pdftex.def Info: assets/logos/github-mark.png  used on input line 317.
+Package pdftex.def Info: assets/logos/github-mark.png  used on input line 321.
 (pdftex.def)             Requested size: 56.9055pt x 56.90553pt.
 
-Overfull \hbox (55.92892pt too wide) in paragraph at lines 290--323
+Overfull \hbox (55.92892pt too wide) in paragraph at lines 294--327
  [][] 
  []
 
@@ -476,45 +471,45 @@ Overfull \hbox (55.92892pt too wide) in paragraph at lines 290--323
 <assets/logos/PHP_logo.png, id=77, 3764.0625pt x 1979.14406pt>
 File: assets/logos/PHP_logo.png Graphic file (type png)
 <use assets/logos/PHP_logo.png>
-Package pdftex.def Info: assets/logos/PHP_logo.png  used on input line 332.
+Package pdftex.def Info: assets/logos/PHP_logo.png  used on input line 336.
 (pdftex.def)             Requested size: 56.9055pt x 29.89726pt.
 <assets/logos/js.jpg, id=78, 475.7775pt x 475.7775pt>
 File: assets/logos/js.jpg Graphic file (type jpg)
 <use assets/logos/js.jpg>
-Package pdftex.def Info: assets/logos/js.jpg  used on input line 337.
+Package pdftex.def Info: assets/logos/js.jpg  used on input line 341.
 (pdftex.def)             Requested size: 56.9055pt x 56.90207pt.
 <assets/logos/html.jpg, id=79, 475.7775pt x 670.505pt>
 File: assets/logos/html.jpg Graphic file (type jpg)
 <use assets/logos/html.jpg>
-Package pdftex.def Info: assets/logos/html.jpg  used on input line 342.
+Package pdftex.def Info: assets/logos/html.jpg  used on input line 346.
 (pdftex.def)             Requested size: 56.9055pt x 80.19112pt.
 <assets/logos/css.png, id=80, 1331.28947pt x 1879.02pt>
 File: assets/logos/css.png Graphic file (type png)
 <use assets/logos/css.png>
-Package pdftex.def Info: assets/logos/css.png  used on input line 347.
+Package pdftex.def Info: assets/logos/css.png  used on input line 351.
 (pdftex.def)             Requested size: 56.9055pt x 80.30887pt.
 
-Overfull \hbox (55.92892pt too wide) in paragraph at lines 330--353
+Overfull \hbox (55.92892pt too wide) in paragraph at lines 334--357
  [][] 
  []
 
 <assets/logos/OIP (1).jpg, id=81, 475.7775pt x 378.41376pt>
 File: assets/logos/OIP (1).jpg Graphic file (type jpg)
 <use assets/logos/OIP (1).jpg>
-Package pdftex.def Info: assets/logos/OIP (1).jpg  used on input line 361.
+Package pdftex.def Info: assets/logos/OIP (1).jpg  used on input line 365.
 (pdftex.def)             Requested size: 56.9055pt x 45.25755pt.
 <assets/logos/jq.png, id=82, 4111.36pt x 4111.36pt>
 File: assets/logos/jq.png Graphic file (type png)
 <use assets/logos/jq.png>
-Package pdftex.def Info: assets/logos/jq.png  used on input line 366.
+Package pdftex.def Info: assets/logos/jq.png  used on input line 370.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
 <assets/logos/ajax.png, id=83, 863.225pt x 903.375pt>
 File: assets/logos/ajax.png Graphic file (type png)
 <use assets/logos/ajax.png>
-Package pdftex.def Info: assets/logos/ajax.png  used on input line 371.
+Package pdftex.def Info: assets/logos/ajax.png  used on input line 375.
 (pdftex.def)             Requested size: 56.9055pt x 59.5485pt.
 
-Overfull \hbox (55.92892pt too wide) in paragraph at lines 359--377
+Overfull \hbox (55.92892pt too wide) in paragraph at lines 363--381
  [][] 
  []
 
@@ -524,17 +519,17 @@ Overfull \hbox (55.92892pt too wide) in paragraph at lines 359--377
 <assets/webSite/homePage.png, id=91, 1866.975pt x 888.31876pt>
 File: assets/webSite/homePage.png Graphic file (type png)
 <use assets/webSite/homePage.png>
-Package pdftex.def Info: assets/webSite/homePage.png  used on input line 392.
+Package pdftex.def Info: assets/webSite/homePage.png  used on input line 396.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
 <assets/webSite/loginCollab.jpeg, id=92, 1706.375pt x 811.03pt>
 File: assets/webSite/loginCollab.jpeg Graphic file (type jpg)
 <use assets/webSite/loginCollab.jpeg>
-Package pdftex.def Info: assets/webSite/loginCollab.jpeg  used on input line 402.
+Package pdftex.def Info: assets/webSite/loginCollab.jpeg  used on input line 406.
 (pdftex.def)             Requested size: 317.07614pt x 150.70647pt.
 <assets/webSite/envoieDemande.jpeg, id=93, 307.90031pt x 347.04657pt>
 File: assets/webSite/envoieDemande.jpeg Graphic file (type jpg)
 <use assets/webSite/envoieDemande.jpeg>
-Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 411.
+Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 415.
 (pdftex.def)             Requested size: 135.89174pt x 153.17226pt.
 
 
@@ -542,7 +537,7 @@ Package pdftex.def Info: assets/webSite/envoieDemande.jpeg  used on input line 4
 <assets/webSite/profielPage.jpeg, id=98, 1865.97125pt x 910.40125pt>
 File: assets/webSite/profielPage.jpeg Graphic file (type jpg)
 <use assets/webSite/profielPage.jpeg>
-Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 419.
+Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 423.
 (pdftex.def)             Requested size: 362.37569pt x 176.79822pt.
 
 
@@ -550,17 +545,17 @@ Package pdftex.def Info: assets/webSite/profielPage.jpeg  used on input line 419
 <assets/webSite/modifProfile.png, id=102, 1856.9375pt x 948.54375pt>
 File: assets/webSite/modifProfile.png Graphic file (type png)
 <use assets/webSite/modifProfile.png>
-Package pdftex.def Info: assets/webSite/modifProfile.png  used on input line 428.
+Package pdftex.def Info: assets/webSite/modifProfile.png  used on input line 432.
 (pdftex.def)             Requested size: 362.37569pt x 185.10278pt.
 <assets/webSite/Acceuil.png, id=103, 1400.23125pt x 666.23906pt>
 File: assets/webSite/Acceuil.png Graphic file (type png)
 <use assets/webSite/Acceuil.png>
-Package pdftex.def Info: assets/webSite/Acceuil.png  used on input line 436.
+Package pdftex.def Info: assets/webSite/Acceuil.png  used on input line 440.
 (pdftex.def)             Requested size: 362.37569pt x 172.41495pt.
 <assets/webSite/addQuestion.png, id=104, 1866.975pt x 888.31876pt>
 File: assets/webSite/addQuestion.png Graphic file (type png)
 <use assets/webSite/addQuestion.png>
-Package pdftex.def Info: assets/webSite/addQuestion.png  used on input line 443.
+Package pdftex.def Info: assets/webSite/addQuestion.png  used on input line 447.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
 
 
@@ -572,7 +567,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <assets/webSite/search.png, id=111, 1866.975pt x 888.31876pt>
 File: assets/webSite/search.png Graphic file (type png)
 <use assets/webSite/search.png>
-Package pdftex.def Info: assets/webSite/search.png  used on input line 450.
+Package pdftex.def Info: assets/webSite/search.png  used on input line 454.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
 
 
@@ -580,17 +575,17 @@ Package pdftex.def Info: assets/webSite/search.png  used on input line 450.
 <assets/webSite/notInterested.png, id=117, 361.35pt x 702.625pt>
 File: assets/webSite/notInterested.png Graphic file (type png)
 <use assets/webSite/notInterested.png>
-Package pdftex.def Info: assets/webSite/notInterested.png  used on input line 460.
+Package pdftex.def Info: assets/webSite/notInterested.png  used on input line 464.
 (pdftex.def)             Requested size: 163.06795pt x 317.0789pt.
 <assets/webSite/interested.png, id=118, 349.305pt x 690.58pt>
 File: assets/webSite/interested.png Graphic file (type png)
 <use assets/webSite/interested.png>
-Package pdftex.def Info: assets/webSite/interested.png  used on input line 466.
+Package pdftex.def Info: assets/webSite/interested.png  used on input line 470.
 (pdftex.def)             Requested size: 163.06795pt x 322.3914pt.
 <assets//webSite/notification.png, id=119, 970.62625pt x 395.4775pt>
 File: assets//webSite/notification.png Graphic file (type png)
 <use assets//webSite/notification.png>
-Package pdftex.def Info: assets//webSite/notification.png  used on input line 475.
+Package pdftex.def Info: assets//webSite/notification.png  used on input line 479.
 (pdftex.def)             Requested size: 226.48395pt x 92.27946pt.
 
 
@@ -598,12 +593,12 @@ Package pdftex.def Info: assets//webSite/notification.png  used on input line 47
 <assets/webSite/base-de-connaissance.png, id=126, 1866.975pt x 888.31876pt>
 File: assets/webSite/base-de-connaissance.png Graphic file (type png)
 <use assets/webSite/base-de-connaissance.png>
-Package pdftex.def Info: assets/webSite/base-de-connaissance.png  used on input line 484.
+Package pdftex.def Info: assets/webSite/base-de-connaissance.png  used on input line 488.
 (pdftex.def)             Requested size: 271.7835pt x 129.31122pt.
 <assets/webSite/base-de-connaissance_demo.png, id=127, 1119.18124pt x 1507.6325pt>
 File: assets/webSite/base-de-connaissance_demo.png Graphic file (type png)
 <use assets/webSite/base-de-connaissance_demo.png>
-Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on input line 491.
+Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on input line 495.
 (pdftex.def)             Requested size: 271.7835pt x 366.11806pt.
 
 
@@ -611,12 +606,12 @@ Package pdftex.def Info: assets/webSite/base-de-connaissance_demo.png  used on i
 <assets/webSite/projectsPage.png, id=133, 1866.975pt x 888.31876pt>
 File: assets/webSite/projectsPage.png Graphic file (type png)
 <use assets/webSite/projectsPage.png>
-Package pdftex.def Info: assets/webSite/projectsPage.png  used on input line 500.
+Package pdftex.def Info: assets/webSite/projectsPage.png  used on input line 504.
 (pdftex.def)             Requested size: 226.48395pt x 107.75934pt.
 <assets/webSite/loginAdmin.png, id=134, 1866.975pt x 888.31876pt>
 File: assets/webSite/loginAdmin.png Graphic file (type png)
 <use assets/webSite/loginAdmin.png>
-Package pdftex.def Info: assets/webSite/loginAdmin.png  used on input line 508.
+Package pdftex.def Info: assets/webSite/loginAdmin.png  used on input line 512.
 (pdftex.def)             Requested size: 362.37569pt x 172.41496pt.
 
 
@@ -624,7 +619,7 @@ Package pdftex.def Info: assets/webSite/loginAdmin.png  used on input line 508.
 <assets/webSite/AdminProfile.jpeg, id=140, 1706.375pt x 1728.4575pt>
 File: assets/webSite/AdminProfile.jpeg Graphic file (type jpg)
 <use assets/webSite/AdminProfile.jpeg>
-Package pdftex.def Info: assets/webSite/AdminProfile.jpeg  used on input line 524.
+Package pdftex.def Info: assets/webSite/AdminProfile.jpeg  used on input line 528.
 (pdftex.def)             Requested size: 362.37569pt x 367.0484pt.
 
 
@@ -632,7 +627,7 @@ Package pdftex.def Info: assets/webSite/AdminProfile.jpeg  used on input line 52
 <assets/webSite/AdminModif.jpeg, id=144, 1706.375pt x 1004.75375pt>
 File: assets/webSite/AdminModif.jpeg Graphic file (type jpg)
 <use assets/webSite/AdminModif.jpeg>
-Package pdftex.def Info: assets/webSite/AdminModif.jpeg  used on input line 533.
+Package pdftex.def Info: assets/webSite/AdminModif.jpeg  used on input line 537.
 (pdftex.def)             Requested size: 362.37569pt x 213.36554pt.
 
 
@@ -640,7 +635,7 @@ Package pdftex.def Info: assets/webSite/AdminModif.jpeg  used on input line 533.
 <assets/webSite/dashboard.jpeg, id=149, 1706.375pt x 2327.69624pt>
 File: assets/webSite/dashboard.jpeg Graphic file (type jpg)
 <use assets/webSite/dashboard.jpeg>
-Package pdftex.def Info: assets/webSite/dashboard.jpeg  used on input line 542.
+Package pdftex.def Info: assets/webSite/dashboard.jpeg  used on input line 546.
 (pdftex.def)             Requested size: 362.37569pt x 494.30038pt.
 
 
@@ -661,7 +656,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  79i,14n,93p,963b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\moham\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (27 pages, 6476349 bytes).
+Output written on main.pdf (27 pages, 6476380 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
